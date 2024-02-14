@@ -54,8 +54,8 @@ Examples:
 If we simplify to a single charge, $q$, with drift velocity, $v_d$, we can write the current as:
 ```math
 \begin{align}
-y &= mx+b\\
- &= d
+I &= \frac{|Q_\text{through A in $\Delta t$|}|}{\Delta t} = \frac{|q| N_\text{through A}}{\Delta t} = \frac{|q| n V_\text{through A in $\Delta t$}{\Delta t} = \frac{|q| n A \Delta x_\text{in \Delta t}}{\Delta t} \\
+& \rightarrow I = |q| n A v_d
 \end{align}
 ```
 
