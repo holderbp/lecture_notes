@@ -111,7 +111,6 @@ I \propto \Delta V
 
 ![Current flow through single resistor circuit](images/07_current-single-resistor-conductor.png)
 
-
 The constant of proportionality defines the **resistance**, R, of the conductor:
 ```math
 I = \left( \frac{1}{R} \right) \Delta V \quad \text{or} \quad \Delta V_R = I R
