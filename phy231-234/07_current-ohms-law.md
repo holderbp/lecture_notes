@@ -165,7 +165,7 @@ The potential difference at different points in a single circuit can be graphed 
 Energy in Electric Circuits
 ------------------------------------------------------------------------
 
-# Energy supplied by a battery
+### Energy supplied by a battery
 
 A battery does work via a chemical force to "lift" charge to a higher potential energy.
 
@@ -185,7 +185,7 @@ P = I V
 ```
 Recall from the first-semester physics class that the SI units of power are Joules per second or "Watts": $\text{W} = \frac{\text{J}}{\text{s}}$.
 
-# Power dissipated in resistors
+### Power dissipated in resistors
 
 The energy supplied by a battery to a circuit is dissipated as heat in the resistor.  We can calculate:
 ```math
@@ -199,7 +199,7 @@ where we've again used Ohm's law in the last equality.
 
 We could use this for a single resistor attached to an EMF:
 
-![Power dissipated in a single resistor circuit is equal to the power delivered by the battery](images/07_power-dissipated-single resistor.png)
+![Power dissipated in a single resistor circuit is equal to the power delivered by the battery](images/07_power-dissipated-single-resistor.png)
 
 But we could also apply it to a resistor within a more complicated circuit (next time!).
 
