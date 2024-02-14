@@ -84,6 +84,20 @@ meaning that the current is the flux of the current density through a chosen sur
 "Electromotive Force" (EMF) and Batteries
 ------------------------------------------------------------------------
 
+The electric field that drives current in a circuit is usually creeated by a **battery**, an object with is able to maintain a constant potential difference between its two terminals:
+
+![Circuit with current flow through battery and resistor](images/07_schematic-battery-resistor-circuit.png)
+
+Any device that can maintain a constant potential difference across two points (a **battery** does this with a chemical reaction, a **generator** does it by converting mechanical energy to electrical) is called a *source of electromotive force* (EMF).  This is represented in a circuit schematic as
+
+![Schematic representation of an emf (battery)](images/07_schematic-emf.png)
+
+and the following variables are used interchangably to represent the value of the potential difference
+```math
+\Delta V \text{ "potential diff"} \quad \leftrightarrow  V \text{ "voltage} \quad \leftrightarrow \mathcal{E} \text{ "EMF"}
+```
+
+
 Ohm's Law and Resistance
 ------------------------------------------------------------------------
 
