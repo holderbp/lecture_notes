@@ -55,7 +55,7 @@ If we simplify to a single charge, $q$, with drift velocity, $v_d$, we can write
 ```math
 \begin{align}
 y &= mx+b\\
- = d
+ &= d
 \end{align}
 ```
 
