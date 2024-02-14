@@ -45,7 +45,7 @@ I = \frac{\text{Net charge passing through $A$ in $\Delta t$}}{\Delta t}
 ```
 The *direction* of the current is the direction of $\vec{E}$, i.e., the direction that positive charge carriers would flow. Given the presence of $\vec{E}$, positive charges will flow in one direction across $A$, and negative charge carriers will flow in the other direction.  Both of those will be considered a current in the direction of $\vec{E}$.  An equal amount of positive and negative charges passing the same way through A would yield a net charge flux of zero and therefore a zero current.  Although we give it a direction, the current, $I$, is not a vector.
 
-![Current flow thorugh cross-sectional area $A$ in a conductor due to $\vec{E}, with positive and negative charge carriers](images/07_current-flow-charge-carriers.png)
+![Current flow thorugh cross-sectional are with positive and negative charge carriers](images/07_current-flow-charge-carriers.png)
 
 Examples:
 
@@ -60,7 +60,7 @@ I &= \frac{|Q_\text{through A in $\Delta t$|}|}{\Delta t} = \frac{|q| N_\text{th
 ```
 where $n$ is the number of charge carriers per unit volume (called the *number density*, with $[n] = \text{m}^{-3}$).
 
-![Drift velocity calculation of current](images/07_drift-velocity-current-calculation.png}
+![Drift velocity calculation of current](images/07_drift-velocity-current-calculation.png)
 
 **Def'n**: Given an arbitrary conductor (no longer restricting ourselves to a "wire") with a penetrating electric field, $\vec{E}(\vec{r})$, one can imagine there will be a corresponding drift velocity field, $\vec{v}_d(\vec{r})$, meaning that, at every point $\vec{r}$, the charge carriers in that vicinity (let's assume a single type of charge carrier, with charge $q$) have an average drift velocity vector $\vec{v}_d$.  We can therefore define the **current density field**, $\vec{J}(\vec{r})$, as the current per unit area ($|\vec{J}| = I/A$) at every point:
 ```math
