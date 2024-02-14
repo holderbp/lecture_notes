@@ -94,7 +94,7 @@ Any device that can maintain a constant potential difference across two points (
 
 and the following variables are used interchangably to represent the value of the potential difference
 ```math
-\Delta V \text{ "potential diff"} \quad \leftrightarrow  V \text{ "voltage} \quad \leftrightarrow \mathcal{E} \text{ "EMF"}
+\Delta V \text{ ``potential diff"} \quad \leftrightarrow  V \text{ ``voltage"} \quad \leftrightarrow \mathcal{E} \text{ ``EMF"}
 ```
 
 
