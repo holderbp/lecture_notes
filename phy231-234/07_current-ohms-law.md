@@ -96,13 +96,42 @@ and the following variables are used interchangably to represent the value of th
 ```math
 \Delta V \text{ ``potential diff"} \quad \leftrightarrow  V \text{ ``voltage"} \quad \leftrightarrow \mathcal{E} \text{ ``EMF"}
 ```
-(Note that $V$ is used as both a variable (for "voltage", which means $\Delta V$) and as a unit, "volt", the SI unit of potential difference: $1 \text{ V}=\frac{\text{Nm}}{\text{C}} = \frac{\text{J}}{\text{C}}$.
+(Note that $V$ is used as both a variable (for "voltage", which means $\Delta V$) and as a unit, V for "volt", the SI unit of potential difference: $1 \text{ V}=\frac{\text{Nm}}{\text{C}} = \frac{\text{J}}{\text{C}}$.
 
 An **ideal battery** is a pure source of EMF. **Real batteries**, however, cannot maintain a constant $\Delta V$ due to their "internal resistance" (see below).
 
 
 Ohm's Law and Resistance
 ------------------------------------------------------------------------
+
+When a potential difference is applied to a conductor, a current will flow.  For many materials --- so-called "ohmic materials" --- the current is proportional to the applied potential difference
+```math
+I \propto \Delta V
+```
+The constant of proportionality defines the **resistance**, R, of the conductor:
+```math
+I = \left( \frac{1}{R} \right) \Delta V \quad \text{or} \quad \Delta V_R = I R
+```
+where by $\Delta V_R$ we mean "the potential difference across *the* resistor with resistance $R$".
+
+We can rewrite Ohm's law as an experimental definition of resistance (apply a potential difference and measure the resulting current):
+```math
+R := \frac{\Delta V_\text{applied}}{I_\text{measured}} \quad \rightarrow [R] = \frac{[\Delta V]}{[I]} = \frac{V}{A} = \Omega = \text{ "ohm"}
+```
+where an "ohm", a volt per amp, is the SI unit of resistance.
+
+The resistance of an object depends on the properties of the material and the geometry:
+```math
+\begin{align}
+R & \propto L \quad \text{longer object means higher $R$}\\
+R & \propto \frac{1}{A} \quad \text{larger crossectional area means more routes for current flow}
+\end{align}
+```
+so
+```math
+R  = \rho \frac{L}{A}
+```
+where the constant of proportionality, $\rho$, is called the **resistivity** of the material.  (Again, $\rho$ here has no connection to volume charge density).
 
 A Simple Circuit
 ------------------------------------------------------------------------
