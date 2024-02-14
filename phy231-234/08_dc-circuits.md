@@ -29,7 +29,7 @@ To understand a circuit, one must determine:
 
 2. The the value and directin of the current in each wire and/or circuit element.
 
-**Potential**: The potential is *raised* when crossing a battery (from - to +), *remains the same* along wires (since $R_\text{wire} = 0$ and, by Ohm's Law, $\Delta V_\text{wire} = I R_\text{wire} = 0), and *drops* across a resistor or capacitor (recall: $\Delta V_R = I R$ and $\Delta V_C = Q/C$).
+**Potential**: The potential is *raised* when crossing a battery (from - to +), *remains the same* along wires (since $R_\text{wire} = 0$ and, by Ohm's Law, $\Delta V_\text{wire} = I R_\text{wire} = 0$), and *drops* across a resistor or capacitor (recall: $\Delta V_R = I R$ and $\Delta V_C = Q/C$).
 
 ![Potential values shown as colors at all points on a circuit with a battery, two resistors, and a capacitor.  The potential difference across each element should be thought of as a "difference in color".  For example, the battery has a potential difference of "red to blue".](images/08_coloring-potential-simple-RC-circuit.png)
 
