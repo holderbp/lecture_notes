@@ -43,9 +43,21 @@ Definitions of Current (I), Current Density (Jvec), and Resistivity (rho)
 ```math
 I = \frac{\text{Net charge passing through $A$ in $\Delta t$}}{\Delta t}
 ```
+The *direction* of the current is the direction of $\vec{E}$, i.e., the direction that positive charge carriers would flow. Given the presence of $\vec{E}$, positive charges will flow in one direction across $A$, and negative charge carriers will flow in the other direction.  Both of those will be considered a current in the direction of $\vec{E}$.  An equal amount of positive and negative charges passing the same way through A would yield a net charge flux of zero and therefore a zero current.  Although we give it a direction, the current, $I$, is not a vector.
 
+![Current flow thorugh cross-sectional area $A$ in a conductor due to $\vec{E}, with positive and negative charge carriers](images/07_current-flow-charge-carriers.png)
 
+Examples:
 
+![Current flow in neutral salt solution, acidic solution (excess +), and metal (free electrons)](images/07_three-example-current.png)
+
+If we simplify to a single charge, $q$, with drift velocity, $v_d$, we can write the current as:
+$$
+\begin{align}
+y &= mx+b\\
+ = d
+\end{align}
+$$
 
 "Electromotive Force" (EMF) and Batteries
 ------------------------------------------------------------------------
