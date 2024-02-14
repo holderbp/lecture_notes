@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 CURRENT, RESISTANCE, AND OHM'S LAW
 ==================================
 
@@ -42,14 +40,21 @@ Definitions of Current (I), Current Density (Jvec), and Resistivity (rho)
 ------------------------------------------------------------------------
 
 **Def'n**: Take a long conductor (call it a "wire") with an electric field directed along its length, and consider any cross-sectional area of the wire, $A$. The **current passing through $A$** is:
-$$I = \frac{\text{Net charge passing through $A$ in $\Delta t$}}{\Delta t}$$
+```math
+I = \frac{\text{Net charge passing through $A$ in $\Delta t$}}{\Delta t}
+```
 
 
 
-## Section: "Electromotive Force" (EMF) and Batteries
 
-## Section: Ohm's Law and Resistance
+"Electromotive Force" (EMF) and Batteries
+------------------------------------------------------------------------
 
-## Section: A Simple Circuit
+Ohm's Law and Resistance
+------------------------------------------------------------------------
 
-## Energy in Electric Circuits
+A Simple Circuit
+------------------------------------------------------------------------
+
+Energy in Electric Circuits
+------------------------------------------------------------------------
