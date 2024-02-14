@@ -96,7 +96,7 @@ and the following variables are used interchangably to represent the value of th
 ```math
 \Delta V \text{ ``potential diff"} \quad \leftrightarrow  V \text{ ``voltage"} \quad \leftrightarrow \mathcal{E} \text{ ``EMF"}
 ```
-(Note that "$V$" is used as both a variable (for "voltage", which means $\Delta V$) and as a unit, "volt", the SI unit of $\Delta V$: $1 \text{ V}=\frac{\text{Nm}}{\text{C}} = \frac{\text{J}}{\text{C}}$.
+(Note that $V$ is used as both a variable (for "voltage", which means $\Delta V$) and as a unit, "volt", the SI unit of potential difference: $1 \text{ V}=\frac{\text{Nm}}{\text{C}} = \frac{\text{J}}{\text{C}}$.
 
 An **ideal battery** is a pure source of EMF. **Real batteries**, however, cannot maintain a constant $\Delta V$ due to their "internal resistance" (see below).
 
