@@ -169,7 +169,7 @@ Energy in Electric Circuits
 
 A battery does work via a chemical force to "lift" charge to a higher potential energy.
 
-![Forces on charge in battery, raising potential value through electric field](07_forces-battery.png)
+![Forces on charge in battery, raising potential value through electric field](images/07_forces-battery.png)
 
 - Without knowning the details of this "chemical force" we can see that the work it does is the opposite of the work done by the electric force over the same displacement ($\Delta \vec{s}$ on picture:
 ```math
