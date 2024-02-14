@@ -5,7 +5,7 @@ CURRENT, RESISTANCE, AND OHM'S LAW
 Current
 -------
 
-Electrical circuits --- lighting our homes, powering our phonse, and controlling our own thoughts and actions in neural networks --- are driven by moving charge.
+Electrical circuits --- lighting our homes, powering our phones, and controlling our own thoughts and actions in neural networks --- are driven by moving charge.
 
 Consider an electric field passing through a metal cylinder:
 
@@ -37,7 +37,15 @@ The electric force on free electrons in a conductor serves to change the thermal
 
 - Question: What is $v_d$ in cm/h?
 
-## Section: Definitions of Current (I), Current Density (Jvec), and Resistivity (rho)
+Definitions of Current (I), Current Density (Jvec), and Resistivity (rho)
+------------------------------------------------------------------------
+
+**Def'n**: Take a long conductor (call it a "wire") with an electric field directed along its length, and consider any cross-sectional area of the wire, $A$. The **current passing through $A$** is:
+$$
+I = \frac{\text{Net charge passing through $A$ in $\Delta t$}}{\Delta t}
+$$
+
+
 
 ## Section: "Electromotive Force" (EMF) and Batteries
 
