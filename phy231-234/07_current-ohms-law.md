@@ -142,5 +142,21 @@ where the constant of proportionality, $\rho$, is called the **resistivity** of 
 A Simple Circuit
 ------------------------------------------------------------------------
 
+When a resistor, $R$, is connected to an ideal battery with EMF $\mathcal{E}$, current will flow from the high potential terminal to the low potential terminal with $I = \mathcal{E}/R$.
+
+- Rule: The *current* must be the same at all points on the loop or else there would be build-up of charge.
+
+- Rule: The *electric potential* value changes when passing across elements of the circuit, but has the same value along all connected wires.
+
+![Single resistor circuit schematic](images/07_single-resistor-circuit-schematic.png)
+
+- The battery raises the potential by $\mathcal{E}$ (potential differece $\Delta V_\text{batt} = V_B - V_A = \mathcal{E}$. So the current passing across a resistor must cause a *drop* in potential by the same amount ($V_D - V_C = - \mathcal{E} = -IR$) to return $V_D = V_A$.
+
+A **real battery** can be represented by an ideal battery (a source of constant EMF/$\Delta V$) in series with an **internal resistance** (a resistance of the battery itself, which cannot be physically separated).  The internal resistance, by Ohm's law, causes a drop in potential such that the **terminal voltage** (the potential difference across the terminals of the real battery, crossing both the EMF and internal resistor) is less than $\mathcal{E}$.
+
+![Schematic of real battery (EMF plus internal resistance)](images/07_real-battery-schematic.png)
+
+An ideal battery could put out any current: as the resistance across approaches zero, the current approches infinity!  But the internal resistance limits the maximum current of a real battery.
+
 Energy in Electric Circuits
 ------------------------------------------------------------------------
