@@ -58,6 +58,28 @@ I &= \frac{|Q_\text{through A in $\Delta t$|}|}{\Delta t} = \frac{|q| N_\text{th
 & \rightarrow I = |q| n A v_d
 \end{align}
 ```
+where $n$ is the number of charge carriers per unit volume (called the *number density*, with $[n] = \text{m}^{-3}$).
+
+![Drift velocity calculation of current](images/07_drift-velocity-current-calculation.png}
+
+**Def'n**: Given an arbitrary conductor (no longer restricting ourselves to a "wire") with a penetrating electric field, $\vec{E}(\vec{r})$, one can imagine there will be a corresponding drift velocity field, $\vec{v}_d(\vec{r})$, meaning that, at every point $\vec{r}$, the charge carriers in that vicinity (let's assume a single type of charge carrier, with charge $q$) have an average drift velocity vector $\vec{v}_d$.  We can therefore define the **current density field**, $\vec{J}(\vec{r})$, as the current per unit area ($|\vec{J}| = I/A$) at every point:
+```math
+\vec{J}(\vec{r}) := q n \vec{v}_d(\vec{r}).
+```
+Since, for positive charge carriers, the drift velocity points in the same direction as $\vec{E}$, we can write this as
+```math
+\vec{J} = \sigma \vec{E} = (1/\rho) \vec{E}
+```
+where we have defined $\sigma$ as the **conductivity** of the material and $\rho$ as the **resistivity** (the inverse of the conductivity). Note that neither of these are "charge densities" (like we saw a few units ago), they just use the same symbol. The equation above is the most basic expression of "Ohm's Law" (see below).
+
+We will primarily use the current, $I$, rather than the current density, $\vec{J}$. They are related by:
+```math
+I = \int_S \vec{J} \cdot d\vec{A} = \int_S \vec{J} \cdot \hat{n} dA
+```
+meaning that the current is the flux of the current density through a chosen surface, $S$.
+
+![Flux of the current density field](images/07_flux-of-current-density.png)
+
 
 "Electromotive Force" (EMF) and Batteries
 ------------------------------------------------------------------------
