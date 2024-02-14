@@ -52,12 +52,12 @@ Examples:
 ![Current flow in neutral salt solution, acidic solution (excess +), and metal (free electrons)](images/07_three-example-current.png)
 
 If we simplify to a single charge, $q$, with drift velocity, $v_d$, we can write the current as:
-$$
+```math
 \begin{align}
 y &= mx+b\\
  = d
 \end{align}
-$$
+```
 
 "Electromotive Force" (EMF) and Batteries
 ------------------------------------------------------------------------
