@@ -40,7 +40,7 @@ To understand a circuit, one must determine:
 Note that, in the figure above:
 - The current through the battery, $I_\text{batt}$, is the same as the current through $R_1$.
 - At junction A, current splits such that $I_\text{batt} = I_1+ I_2$.
-- The current through R_3 and R_4 is the same.
+- The current through $R_3$ and $R_4$ is the same.
 - At junction B, current merges.
 
 ### Kirchoff's Rules
