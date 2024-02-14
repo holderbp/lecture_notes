@@ -158,5 +158,49 @@ A **real battery** can be represented by an ideal battery (a source of constant 
 
 An ideal battery could put out any current: as the resistance across approaches zero, the current approches infinity!  But the internal resistance limits the maximum current of a real battery.
 
+The potential difference at different points in a single circuit can be graphed to show the raise in potential across the battery, and the drop in potential across each resistor (when traveling in direction of current flow).
+
+![Graph of potential versus position along simple circuit with real battery](images/07_potential-graph-simple-circuit.png)
+
 Energy in Electric Circuits
 ------------------------------------------------------------------------
+
+# Energy supplied by a battery
+
+A battery does work via a chemical force to "lift" charge to a higher potential energy.
+
+![Forces on charge in battery, raising potential value through electric field](07_forces-battery.png)
+
+- Without knowning the details of this "chemical force" we can see that the work it does is the opposite of the work done by the electric force over the same displacement ($\Delta \vec{s}$ on picture:
+```math
+W_\text{chemical} = - W_E = - \left( -\Delta U_E \right) = + q \Delta V
+```
+and writing $I = \frac{\Delta q}{\Delta t}$, or $\Delta q = I \Delta t$, we can see that the **average power** (the energy per time) **delivered by the battery** is:
+```math
+P_\text{batt} = \frac{W_\text{chemical}}{\Delta t} = \frac{\Delta q \Delta V_\text{batt}}{\Delta t} = I \Delta V_\text{batt} 
+```
+or, writing voltage as $V = \Delta V_\text{batt}$,
+```math
+P = I V
+```
+Recall from the first-semester physics class that the SI units of power are Joules per second or "Watts": $\text{W} = \frac{\text{J}}{\text{s}}$.
+
+# Power dissipated in resistors
+
+The energy supplied by a battery to a circuit is dissipated as heat in the resistor.  We can calculate:
+```math
+P_\text{dissipated} = P_\text{delivered} = I V = I\left( I R \right)
+```
+or
+```math
+P_\text{dissipated} = I^2 R = \frac{V^2}{R}
+```
+where we've again used Ohm's law in the last equality.
+
+We could use this for a single resistor attached to an EMF:
+
+![Power dissipated in a single resistor circuit is equal to the power delivered by the battery](images/07_power-dissipated-single resistor.png)
+
+But we could also apply it to a resistor within a more complicated circuit (next time!).
+
+![Power dissipated in one of the resistors in a complicated circuit, applying the above equation](images/07_complicated-circuit-power-dissipation.png)
