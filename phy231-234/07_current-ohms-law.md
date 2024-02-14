@@ -108,6 +108,10 @@ When a potential difference is applied to a conductor, a current will flow.  For
 ```math
 I \propto \Delta V
 ```
+
+![Current flow through single resistor circuit](images/07_current-single-resistor-conductor.png)
+
+
 The constant of proportionality defines the **resistance**, R, of the conductor:
 ```math
 I = \left( \frac{1}{R} \right) \Delta V \quad \text{or} \quad \Delta V_R = I R
@@ -116,9 +120,12 @@ where by $\Delta V_R$ we mean "the potential difference across *the* resistor wi
 
 We can rewrite Ohm's law as an experimental definition of resistance (apply a potential difference and measure the resulting current):
 ```math
-R := \frac{\Delta V_\text{applied}}{I_\text{measured}} \quad \rightarrow [R] = \frac{[\Delta V]}{[I]} = \frac{V}{A} = \Omega = \text{ "ohm"}
+R := \frac{\Delta V_\text{applied}}{I_\text{measured}} \quad \rightarrow [R] = \frac{[\Delta V]}{[I]} = \frac{V}{A} = \Omega = \text{ ``ohm"}
 ```
 where an "ohm", a volt per amp, is the SI unit of resistance.
+
+![A resistor with length L and crossectional area A](images/07_resistor-length-area.png)
+
 
 The resistance of an object depends on the properties of the material and the geometry:
 ```math
