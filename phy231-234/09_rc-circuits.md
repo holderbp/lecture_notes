@@ -67,7 +67,21 @@ X_0 = X(0) = A e^{a \cdot 0} = A \cdot 1 \quad \Rightarrow \quad A = X_0
 
 ## Discharging a Capacitor
 
+Discharging A Capacitor
+
+We start by considering the "filled" capacitor. We assume it has been charged by some EMF, $E$, then was disconnected from the battery, and is now holding a charge on each plate of $Q_{\text{max}} = C \cdot E$. We connect it in series with a resistor, $R$, and then at $t=0$, close the loop by closing a switch. Current will flow from the positive plate, through the resistor, to the negative plate, until $Q=0$.
+
 ![Charging and then discharging a capacitor.](images/09_charging-and-discharging-capacitor.png)
+
+Considering the last box above, which corresponds to the dynamics of discharge for $t > 0$, we can write down Kirchhoff's loop rule:
+
+```math
+\begin{align}
+\sum \Delta V_{\text{loop}} &= 0\\
+-| \Delta V_R | + | \Delta V_C| &= 0 \quad \text{(Going CCW from top right)}\\
+-(I(t)R) + \frac{Q(t)}{C} &= 0
+\end{align}
+```
 
 ![Graphs of charge (Q), current (I), and potential difference when discharging a capacitor.](images/09_QIV-graphs-discharging.png)
 
