@@ -8,7 +8,11 @@ This is a work in progress: so far only a few of the PHY 231/234 notes are avail
 
 ## Fix-me's (2024)
 
-* Fix indentation alignment for paragraphs and other elements (images, equation blocks) within itemized/enumerated lists.  It seems that this can be done cleanly for a sequence of paragraphs and inserted images, but adding a ````math...```` code block breaks it.
+* Fix indentation alignment for paragraphs and other elements (images, equation blocks) within itemized/enumerated lists.  It seems that this can be done cleanly for a sequence of paragraphs and inserted images, but adding a (math) code block breaks it.
+
+* center figures with html "align"?
+
+
 
 
 
