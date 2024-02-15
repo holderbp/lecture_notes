@@ -118,20 +118,69 @@ I = I_1 + I_2
 ```
 and then use Ohm's law on each term:
 ```math
-\frac{\Delta V_\text{AB}}{R_\text{eq}} = \frac{\Delta V_1}{R_1} + \frac{\Delta V_2}{R_2} = = \frac{\Delta V_\text{AB}}{R_1} + \frac{\Delta V_\text{AB}}{R_2} 
+\frac{\Delta V_\text{AB}}{R_\text{eq}} = \frac{\Delta V_1}{R_1} + \frac{\Delta V_2}{R_2} = \frac{\Delta V_\text{AB}}{R_1} + \frac{\Delta V_\text{AB}}{R_2} 
 ```
 which yields
 ```math
 \frac{1}{R_\text{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots
 ```
 
+Example: Equivalent Resistance
+--------------------------------------------
+
+![An example problem of finding the equivalent resistance for a system of resistors.](images/08_example-equivalent-resistance.png)
+
 Application of Kirchoff's Rules
 --------------------------------------------
 
 ### Overview
 
+Sometimes we can take a complicated-looking circuit and use equivalent resistance to analyze it, e.g.,
+
+![A circuit example which is possible to reduce using equivalent resistances.](images/08_can-do-equivalent-resistance.png)
+
+But other times, we definitely *cannot*:
+
+![A circuit example in which it is impossible to reduce using equivalent resistances.](images/08_cannot-do-equivalent-resistance.png)
+
+For these, more complicated, circuits, we need another way to solve (i.e., to determine all unknown quantities, like currents and potential differences).
+
 ### Algorithm for solving any DC circuit
 
-1. 
+1. Draw the circuit and give all batteries and resistors unique names (variables)
 
-2. 
+![A circuit that cannot be analyzed with equivalent resistors](08_kirchoffs-rules-alg-I.png)
+
+2. Assign a current to each wire and *assume a direction* for each (if your assumption is wrong, it's ok, you will just calculate a negative value for that current).
+
+![Assigning current names to each junctionless wire](08_kirchoffs-rules-alg-II.png)
+
+3. Write down the *junction rule(s)* and keep any unique equations (but a box around it). So for junction A, above, and using our assumed current directions, we find:
+```math
+I_\text{in} = I_\text{out} \quad \rightarrow \quad I_1 = I_2 + I_3
+```
+
+4. Choose a loop in the circuit: indicate its direction by drawing a loop with an arrow.  Then start at any point and write down the junction rule.  Where you follow these rules:
+  - \Delta V is positive going across a battery from low (-) to high (+)
+  - \Delta V is negative going across a battery from high to low
+  - \Delta V is negative going across a resistor *with the current*
+  - \Delta V is positive going across a resistor *against the current*
+
+![Circuit with chosen loops and loop directions.](08_kirchoffs-rules-alg-III.png)
+
+So for the above choices we have two loops and thus two junction rule equations. So for "Loop 1", we have (starting at point B and going clockwise):
+```math
+\begin{align}
+\Delta V_\text{BC} + \Delta V_\text{CD} + \Delta V_\text{DA} + \Delta V_\text{AB} &= 0
+0 + \mathcal{E}_1 - I_1 R_1 - \mathcal{E}_2 &= 0\\
+& \quad \mathcal{E}_1 - \mathcal{E}_2 = I_1 R_1
+\end{align}
+```
+and, for "Loop 2" we have (starting at point B and going clockwise):
+```math
+\begin{align}
+\Delta V_\text{BA} + \Delta V_\text{AE} + \Delta V_\text{EF} + \Delta V_\text{FB} &= 0
++ \mathcal{E}_2 + 0 - I_2 R_2 - I_2 R_3 = 0\\
+& \quad \mathcal{E}_2 = I_2 R_2 + I_2 R_3
+\end{align}
+```
