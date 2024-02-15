@@ -62,11 +62,11 @@ where (i) the potential drops across the resistors are negative because we have 
 
 2. **Junction Rule**: The sum of the currents into a junction of wires is zero (where we count "current in" as positive and "current out" of the junction as negative).  Alternatively, this could be stated as $I_\text{in} = I_\text{out}$.
 
-    ![Circuit for demonstrating Kirchoff's junction rule.](images/08_junction-rule-circuit.png)
+![Circuit for demonstrating Kirchoff's junction rule.](images/08_junction-rule-circuit.png)
 
     There are two junctions in the above circuit and both give the same equation.  At point A:
 
-    ![One junction from the previous circuit](images/08_junctionA.png)
+![One junction from the previous circuit](images/08_junctionA.png)
 
     we have
     ```math
