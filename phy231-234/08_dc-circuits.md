@@ -51,7 +51,7 @@ The qualitative description of potential and current in the previous section can
 
    For the above circuit we can write:
 
-   ![The second junction from the previous circuit](images/08_junctionB.png)
+   ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
 
 ```math
 \begin{align}
