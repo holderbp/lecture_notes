@@ -155,16 +155,16 @@ For these, more complicated, circuits, we need another way to solve (i.e., to de
 
 ![Assigning current names to each junctionless wire](images/08_kirchoffs-rules-alg-II.png)
 
-3. Write down the *junction rule(s)* and keep any unique equations (but a box around it). So for junction A, above, and using our assumed current directions, we find:
+3. Write down the *junction rule(s)* and keep any unique equations (put a box around it). So for junction A, above, and using our assumed current directions, we find:
 ```math
 I_\text{in} = I_\text{out} \quad \rightarrow \quad I_1 = I_2 + I_3
 ```
 
 4. Choose a loop in the circuit: indicate its direction by drawing a loop with an arrow.  Then start at any point and write down the junction rule.  Where you follow these rules:
-  - \Delta V is positive going across a battery from low (-) to high (+)
-  - \Delta V is negative going across a battery from high to low
-  - \Delta V is negative going across a resistor *with the current*
-  - \Delta V is positive going across a resistor *against the current*
+  - $\Delta V$ is positive going across a battery from low (-) to high (+)
+  - $\Delta V$ is negative going across a battery from high to low
+  - $\Delta V$ is negative going across a resistor *with the current*
+  - $\Delta V$ is positive going across a resistor *against the current*
 
 ![Circuit with chosen loops and loop directions.](images/08_kirchoffs-rules-alg-III.png)
 
