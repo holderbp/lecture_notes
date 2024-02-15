@@ -51,7 +51,7 @@ The qualitative description of potential and current in the previous section can
 
 ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
 
-    * For the above circuit we can write:
+For the above circuit we can write:
 
 ```math
 \begin{align}
@@ -59,7 +59,7 @@ The qualitative description of potential and current in the previous section can
 -I R_1 - I R_2 + 0 + \mathcal{E} &= 0
 \end{align}
 ```
- where (i) the potential drops across the resistors are negative because we have gone in the same direction as the current flow (A to B, and B to C), (ii) the potential difference across a bare wire is zero ($R_\text{wire}=0$), and (iii) the potential difference across a battery, when going from the low (-) to high (+) terminal, is positive.
+where (i) the potential drops across the resistors are negative because we have gone in the same direction as the current flow (A to B, and B to C), (ii) the potential difference across a bare wire is zero ($R_\text{wire}=0$), and (iii) the potential difference across a battery, when going from the low (-) to high (+) terminal, is positive.
 
 
 
