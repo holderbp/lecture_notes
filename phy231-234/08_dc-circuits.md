@@ -47,11 +47,11 @@ Note that, in the figure above:
 
 The qualitative description of potential and current in the previous section can be summarized in two quantitative rules, called "Kirchoff's Rules":
 
-1. Loop Rule: The sum of the changed in potential differences around any closed loop of wire is zero.
+* Loop Rule: The sum of the changed in potential differences around any closed loop of wire is zero.
 
-   For the above circuit we can write:
+  ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
 
-   ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
+  For the above circuit we can write:
 
    ```math
    \begin{align}
