@@ -98,6 +98,7 @@ Equivalent Resistance
 2. Here is the second item
 
    here is a part of the second item
+
    ![The second junction from the previous circuit](images/08_junctionB.png)
 
 3. here is the next element
