@@ -60,7 +60,7 @@ The qualitative description of potential and current in the previous section can
 \end{align}
 ```
 
-	where (i) the potential drops across the resistors are negative because we have gone in the same direction as the current flow (A to B, and B to C), (ii) the potential difference across a bare wire is zero ($R_\text{wire}=0$), and (iii) the potential difference across a battery, when going from the low (-) to high (+) terminal, is positive.
+    where (i) the potential drops across the resistors are negative because we have gone in the same direction as the current flow (A to B, and B to C), (ii) the potential difference across a bare wire is zero ($R_\text{wire}=0$), and (iii) the potential difference across a battery, when going from the low (-) to high (+) terminal, is positive.
 
 2. **Junction Rule**: The sum of the currents into a junction of wires is zero (where we count "current in" as positive and "current out" of the junction as negative).  Alternatively, this could be stated as $I_\text{in} = I_\text{out}$.
 
