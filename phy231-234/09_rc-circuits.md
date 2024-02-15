@@ -15,13 +15,15 @@ To determine $Q(t)$ in each case above, we will write down a loop rule equation,
 
 ## Introduction to Differential Equations
 
-Given a quantity, $X$, that depends on time, a differential equation describes that time dependence through the derivatives of the quantity. For example:
+### Overview
 
+Given a quantity, $X$, that depends on time, a differential equation describes that time dependence through the derivatives of the quantity. For example:
 ```math
 \frac{d^2X}{dt^2} + a \frac{dX}{dt} + b = 0 \quad \text{or} \quad \frac{dX}{dt} = aX^2
 ```
+The first example is called a *linear* differential equation because each term contains, at most, one power of $X$; the right example is called a *nonlinear* differential equation because it contains an $X^2$ term. Generally, a linear equation can be solved, i.e., we can write down exactly how the quantity depends on time, $X(t) = f(t)$, where $f(t)$ is the *solution* and $X_0 = f(0)$ is an *initial condition*. A nonlinear differential equation generally needs to be solved "numerically", using a computer. The left example is called a *second-order differential equation* because it contains a second derivative. The right example is a *first-order diff. eqn*.
 
-The first example is called a linear differential equation because each term contains, at most, one power of $X$; the right example is called a nonlinear differential equation because it contains an $X^2$ term. Generally, a linear equation can be solved, i.e., we can write down exactly how the quantity depends on time, $X(t) = f(t)$, where $f(t)$ is the solution and $X_0 = f(0)$ is an initial condition. A nonlinear differential equation generally needs to be solved "numerically", using a computer. The left example is called a second-order differential equation because it contains a second derivative. The right example is a first-order diff. eqn.
+### Example: 2nd-order differential equation (SHO)
 
 The solution to a first-order differential equation will have one unknown constant. The value of the constant must be set by your choice of the $X_0$ initial condition. A second-order diff. eqn solution contains two constants, set by $X_0$ and $\frac{dX}{dt}(t=0)$.
 
@@ -38,18 +40,15 @@ We found that this second-order differential equation has the following solution
 ```math
 \frac{d^2x}{dt^2} = -kx \quad \Rightarrow \quad x(t) = A \cos(\omega t + \phi) \quad \text{with} \quad \omega^2 = \frac{k}{m}
 ```
-
 Because if you take two derivatives of $x(t)$, you obtain $-\omega^2 x(t)$. The arbitrary constants in this solution, $A$ and $\phi$, were set by our choice of initial conditions, the initial position, $x(0)$, and velocity, $v(0)$.
 
-For example, choose $\left[x_0 = 10 \text{ cm}, v_0 = 0 \right]$. Then:
-
+To see this explicitly (using initial conditions to find $A$ and $\phi$), choose $\left[x_0 = 10 \text{ cm}, v_0 = 0 \right]$. Then:
 ```math
 \begin{align}
 10 \text{ cm} &= A \cos \left( \omega \cdot 0 + \phi \right) \quad \text{$x$ eqn}\\
 0 &= - A \omega \sin \left( \omega \cdot 0 + \phi \right) \quad \text{$v_x$ eqn}
 \end{align}
 ```
-
 The second equation implies that $\sin\phi = 0$, which implies that $\phi = 0$ or $\phi = \pi$.  And the first equation gives us:
 ```math
 A \cos \phi = 10 \text{ cm} \quad \rightarrow \quad \left[ A = 10 \text{ cm}, \phi =0\right]
@@ -59,6 +58,8 @@ So we have our final form of the position:
 x(t) = 10 \text{ cm} \cos \omega t
 ```
 (see my PHY 230 notes for "Simple Harmonic Motion").
+
+### Example: First-order linear differential equation
 
 Today we will encounter a second linear differential equation. It is a first-order equation, and therefore has an even simpler solution (only one initial condition to deal with):
 ```math
@@ -83,10 +84,7 @@ The arbitrary constant \( A \), is determined by the chosen initial condition fo
 X_0 = X(0) = A e^{a \cdot 0} = A \cdot 1 \quad \Rightarrow \quad A = X_0
 ```
 
-
 ## Discharging a Capacitor
-
-Discharging A Capacitor
 
 We start by considering the "filled" capacitor. We assume it has been charged by some EMF, $E$, then was disconnected from the battery, and is now holding a charge on each plate of $Q_{\text{max}} = C \cdot E$. We connect it in series with a resistor, $R$, and then at $t=0$, close the loop by closing a switch. Current will flow from the positive plate, through the resistor, to the negative plate, until $Q=0$.
 
