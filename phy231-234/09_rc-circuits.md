@@ -15,32 +15,33 @@ To determine $Q(t)$ in each case above, we will write down a loop rule equation,
 
 ## Introduction to Differential Equations
 
-Given a quantity, \( X \), that depends on time, a differential equation describes that time dependence through the derivatives of the quantity. For example:
+Given a quantity, $X$, that depends on time, a differential equation describes that time dependence through the derivatives of the quantity. For example:
 
-\[
+```math
 \frac{d^2X}{dt^2} + a \frac{dX}{dt} + b = 0 \quad \text{or} \quad \frac{dX}{dt} = aX^2
-\]
+```
 
-The first example is called a linear differential equation because each term contains, at most, one power of \( X \); the right example is called a nonlinear differential equation because it contains an \( X^2 \) term. Generally, a linear equation can be solved, i.e., we can write down exactly how the quantity depends on time, \( X(t) = f(t) \), where \( f(t) \) is the solution and \( X_0 = f(0) \) is an initial condition. A nonlinear differential equation generally needs to be solved "numerically", using a computer. The left example is called a second-order differential equation because it contains a second derivative. The right example is a first-order diff. eqn.
+The first example is called a linear differential equation because each term contains, at most, one power of $X$; the right example is called a nonlinear differential equation because it contains an $X^2$ term. Generally, a linear equation can be solved, i.e., we can write down exactly how the quantity depends on time, $X(t) = f(t)$, where $f(t)$ is the solution and $X_0 = f(0)$ is an initial condition. A nonlinear differential equation generally needs to be solved "numerically", using a computer. The left example is called a second-order differential equation because it contains a second derivative. The right example is a first-order diff. eqn.
 
-The solution to a first-order differential equation will have one unknown constant. The value of the constant must be set by your choice of the \( X_0 \) initial condition. A second-order diff. eqn solution contains two constants, set by \( X_0 \) and \( \frac{dX}{dt}(t=0) \).
+The solution to a first-order differential equation will have one unknown constant. The value of the constant must be set by your choice of the $X_0$ initial condition. A second-order diff. eqn solution contains two constants, set by $X_0$ and $\frac{dX}{dt}(t=0)$.
+
+![A mass on a spring, the classic harmonic oscillator.](images/09_mass-on-spring.png)
 
 We encountered one example of a linear differential equation in PHY230, while studying oscillatory motion. Newton's second law applied to a mass on a spring was:
 
-\[
+```math
 \vec{F} = m\vec{a} \quad \Rightarrow \quad F_{\text{spring}} = -kx = m\frac{d^2x}{dt^2} \quad \Rightarrow \quad -kx = m\frac{d^2x}{dt^2}
-\]
+```
 
 We found that this second-order differential equation has the following solution:
 
-\[
+```math
 \frac{d^2x}{dt^2} = -kx \quad \Rightarrow \quad x(t) = A \cos(\omega t + \phi) \quad \text{with} \quad \omega^2 = \frac{k}{m}
-\]
+```
 
-Because if you take two derivatives of \( x(t) \), you obtain \( -\omega^2 x(t) \). The arbitrary constants in this solution, \( A \) and \( \phi \), were set by our choice of initial conditions, the initial position, \( x(0) \), and velocity, \( v(0) \).
+Because if you take two derivatives of $x(t)$, you obtain $-\omega^2 x(t)$. The arbitrary constants in this solution, $A$ and $\phi$, were set by our choice of initial conditions, the initial position, $x(0)$, and velocity, $v(0)$.
 
 
-![A mass on a spring, the classic harmonic oscillator.](images/09_mass-on-spring.png)
 
 ## Discharging a Capacitor
 
