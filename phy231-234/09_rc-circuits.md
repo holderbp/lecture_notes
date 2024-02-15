@@ -191,4 +191,40 @@ Which we know has solution:
 u(t) = A e^{-t/RC}
 ```
 
+
+
+Now we can go back from $u(t)$ to $Q(t)$ to find our solution:
+```math
+\begin{align}
+u(t) &= A e^{-t/RC}\\
+Q(t) - C\mathcal{E} & = A e^{-t/RC}\\
+Q(t) & = A e^{-t/RC} + C\mathcal{E}
+\end{align}
+```
+And then we use our known initial condition, $Q(0) = 0$, to solve for $A$:
+```math
+\begin{align}
+Q(0) &= A e^{0/RC} + C\mathcal{E}\\
+0 & = A + C\mathcal{E} \quad \rightarrow \quad A = -C\mathcal{E}
+```
+So, our final solution for the capacitor's charge as a function of time is:
+```math
+Q(t) = C\mathcal{E} \left[ 1 - e^{-t/RC} \right] \quad \quad \text{charging a capacitor}
+```
+
+Again, we can now determine the current through the resistor (and battery), $I(t) = i(t) = \frac{dQ}{dt}$:
+```math
+\begin{align}
+I(t) = \frac{d}{dt} Q(t) & = \frac{d}{dt} \left[ C\mathcal{E} \left( 1 - e^{-t/RC} \right) \right]\\
+& = -C\mathcal{E} \cdot (-\frac{1}{RC})e^{-t/RC}\\
+& \rightarrow \quad I(t) = \frac{\mathcal{E}}{R} e^{-t/RC}
+\end{align}
+```
+Where we see, again, that the initial current, $I(0) = \frac{\mathcal{E}}{R}$, is the maximum value (here, the current flows initial as if the capacitor is replaced by a wire). And, we can determine the potential difference across the capacitor, $\Delta V_C(t)$, $Q(t)/C$:
+```math
+\Delta V_C(t) = \frac{Q(t)}{C} = \mathcal{E} \left[ 1 - e^{-t/RC} \right]
+```
+
+The **graphs for charging the capacitor** are, therefore slightly different:
+
 ![Graphs of charge (Q), current (I), and potential difference when charging a capacitor.](images/09_QIV-graphs-charging.png)
