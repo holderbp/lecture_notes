@@ -94,15 +94,15 @@ I_1 + I_2 &= I_\text{batt}
 Equivalent Resistance
 --------------------------------------------
 
-* Here is an unordered list
-* Here is the second item
+1. Here is an unordered list
+2. Here is the second item
 
   here is a part of the second item
 
   ![The second junction from the previous circuit](images/08_junctionB.png)
 
-* here is the next element
-* and the next
+3. here is the next element
+3. and the next
 
 Application of Kirchoff's Rules
 --------------------------------------------
