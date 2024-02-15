@@ -96,9 +96,52 @@ Considering the last box above, which corresponds to the dynamics of discharge f
 \begin{align}
 \sum \Delta V_{\text{loop}} &= 0\\
 -| \Delta V_R | + | \Delta V_C| &= 0 \quad \text{(Going CCW from top right)}\\
--(I(t)R) + \frac{Q(t)}{C} &= 0
+-I(t) R + \frac{Q(t)}{C} &= 0
 \end{align}
 ```
+
+We must be a little careful about the current variable, $I(t)$. Remember that we defined it to always be a positive number, with direction indicated by an arrow. Here, however, we would use $I(t)$ as the current on the top (positive) plate of the capacitor, $Q(t)$. The change in charge of the top plate, $Q(t)$, is decreasing over time. Therefore, we define:
+```math
+I(t) := \frac{dQ}{dt} = -I(t)
+```
+And our differential equation coming from Kirchhoff's loop rule becomes:
+```math
+\begin{align}
+i(t)R + \frac{Q(t)}{C} &= 0\\
+R\frac{dQ}{dt} + \frac{Q(t)}{C} &= 0 \Rightarrow \frac{dQ}{dt} = -\frac{1}{RC} Q
+\end{align}
+```
+
+So, we have a linear, first-order differential equation for the charge on the (positive) plate of the capacitor. Luckily, this is exactly the equation we already solved in the section on diff eq's. Here, the constant is $a = -\frac{1}{RC}$, so we can just write down the solution:
+```math
+Q(t) = A e^{-\frac{t}{RC}}
+```
+Now we must deal with the unknown integration constant, $A$. Remember, its value is set by our statement about the initial condition, $Q_0 = Q(t=0)$. From our setup we know that $Q_0 = Q_{\text{max}} = CE$, so:
+```math
+Q_0 = Q(0) = A e^{-\frac{0}{RC}} = A \Rightarrow A = Q_0 = CE
+```
+And therefore our final solution is:
+```math
+Q(t) = Q_{\text{max}} e^{-\frac{t}{RC}} = CE e^{-\frac{t}{RC}} \quad \text{Discharging a Capacitor}
+```
+
+Using the expression for $Q(t)$, we can also now find the current, $I = -\frac{dQ}{dt}$, and the potential difference across the capacitor, $\Delta V = \frac{Q(t)}{C}$, at all times:
+```math
+I(t) = -\frac{dQ}{dt} = -\frac{d}{dt} (CE e^{-\frac{t}{RC}}) = -\left( -\frac{1}{RC} \right) CE e^{-\frac{t}{RC}}
+```
+yielding:
+```math
+I(t) = \frac{E}{R} e^{-\frac{t}{RC}}
+```
+and 
+```math
+\Delta V(t) = \frac{Q(t)}{C} = \frac{1}{C} \cdot CE e^{-\frac{t}{RC}}
+```
+gives
+```math
+\Delta V = E e^{-\frac{t}{RC}}
+```
+
 
 ![Graphs of charge (Q), current (I), and potential difference when discharging a capacitor.](images/09_QIV-graphs-discharging.png)
 
