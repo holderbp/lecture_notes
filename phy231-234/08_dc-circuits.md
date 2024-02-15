@@ -69,14 +69,14 @@ where (i) the potential drops across the resistors are negative because we have 
 ![One junction from the previous circuit](images/08_junctionA.png)
 
     we have
-    ```math
-    \begin{align}
-    I_\text{in} &= I_\text{out}\\
-    I_\text{batt} & = I_1 + I_2
-    \end{align}
-    ```
+```math
+\begin{align}
+I_\text{in} &= I_\text{out}\\
+I_\text{batt} & = I_1 + I_2
+\end{align}
+```
 
-And at point B:
+    And at point B:
 
 ![The second junction from the previous circuit](images/08_junctionB.png)
 
