@@ -161,6 +161,7 @@ I_\text{in} = I_\text{out} \quad \rightarrow \quad I_1 = I_2 + I_3
 ```
 
 4. Choose a loop in the circuit: indicate its direction by drawing a loop with an arrow.  Then start at any point and write down the junction rule.  Where you follow these rules:
+
   - $\Delta V$ is positive going across a battery from low (-) to high (+)
   - $\Delta V$ is negative going across a battery from high to low
   - $\Delta V$ is negative going across a resistor *with the current*
