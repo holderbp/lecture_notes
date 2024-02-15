@@ -97,9 +97,8 @@ Equivalent Resistance
 1. Here is an unordered list
 2. Here is the second item
 
-  here is a part of the second item
-
-  ![The second junction from the previous circuit](images/08_junctionB.png)
+   here is a part of the second item
+   ![The second junction from the previous circuit](images/08_junctionB.png)
 
 3. here is the next element
 3. and the next
