@@ -102,7 +102,7 @@ Considering the last box above, which corresponds to the dynamics of discharge f
 
 We must be a little careful about the current variable, $I(t)$. Remember that we defined it to always be a positive number, with direction indicated by an arrow. Here, however, we would use $I(t)$ as the current on the top (positive) plate of the capacitor, $Q(t)$. The change in charge of the top plate, $Q(t)$, is decreasing over time. Therefore, we define:
 ```math
-I(t) := \frac{dQ}{dt} = -I(t)
+i(t) := \frac{dQ}{dt} = -I(t)
 ```
 And our differential equation coming from Kirchhoff's loop rule becomes:
 ```math
