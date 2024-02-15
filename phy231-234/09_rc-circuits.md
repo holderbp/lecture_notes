@@ -41,6 +41,27 @@ We found that this second-order differential equation has the following solution
 
 Because if you take two derivatives of $x(t)$, you obtain $-\omega^2 x(t)$. The arbitrary constants in this solution, $A$ and $\phi$, were set by our choice of initial conditions, the initial position, $x(0)$, and velocity, $v(0)$.
 
+Today we will encounter a second linear differential equation. It is a first-order equation, and therefore has an even simpler solution (only one initial condition to deal with):
+```math
+\frac{dX}{dt} = aX
+```
+One way to solve this equation is to guess a solution (what function \( f(t) \) has a derivative that is itself times a constant?), but this equation can actually just be integrated:
+```math
+\begin{align}
+\frac{dX}{dt} = aX \quad \Rightarrow \quad \frac{1}{X} \frac{dX}{dt} &= a \\
+\int \left( \frac{1}{X} \frac{dX}{dt} \right) dt & = \int a \, dt \\
+\int \frac{1}{X} \, dX & = at + C\\
+\ln(X) & = at + C \\
+X(t) & = e^{at + C'} \quad \Rightarrow \quad X(t) = A e^{at} 
+```
+We can check that this is a solution:
+```math
+\frac{dX}{dt} = \frac{d}{dt} (A e^{at}) = A a e^{at} = a (A e^{at}) = a X(t) \quad \checkmark
+```
+The arbitrary constant \( A \), is determined by the chosen initial condition for \( X(t=0) = X_0 \):
+```math
+X_0 = X(0) = A e^{a \cdot 0} = A \cdot 1 \quad \Rightarrow \quad A = X_0
+```
 
 
 ## Discharging a Capacitor
