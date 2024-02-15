@@ -172,7 +172,7 @@ I_\text{in} = I_\text{out} \quad \rightarrow \quad I_1 = I_2 + I_3
 So for the above choices we have two loops and thus two junction rule equations. So for "Loop 1", we have (starting at point B and going clockwise):
 ```math
 \begin{align}
-\Delta V_\text{BC} + \Delta V_\text{CD} + \Delta V_\text{DA} + \Delta V_\text{AB} &= 0
+\Delta V_\text{BC} + \Delta V_\text{CD} + \Delta V_\text{DA} + \Delta V_\text{AB} &= 0\\
 0 + \mathcal{E}_1 - I_1 R_1 - \mathcal{E}_2 &= 0\\
 & \quad \mathcal{E}_1 - \mathcal{E}_2 = I_1 R_1
 \end{align}
@@ -180,7 +180,7 @@ So for the above choices we have two loops and thus two junction rule equations.
 and, for "Loop 2" we have (starting at point B and going clockwise):
 ```math
 \begin{align}
-\Delta V_\text{BA} + \Delta V_\text{AE} + \Delta V_\text{EF} + \Delta V_\text{FB} &= 0
+\Delta V_\text{BA} + \Delta V_\text{AE} + \Delta V_\text{EF} + \Delta V_\text{FB} &= 0\\
 + \mathcal{E}_2 + 0 - I_2 R_2 - I_2 R_3 = 0\\
 & \quad \mathcal{E}_2 = I_2 R_2 + I_2 R_3
 \end{align}
