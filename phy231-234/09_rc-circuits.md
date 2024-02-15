@@ -45,8 +45,8 @@ For example, choose $\left[x_0 = 10 \text{ cm}, v_0 = 0 \right]$. Then:
 
 ```math
 \begin{align}
-a \text{ cm} &= A \cos \left( \omega \cdot 0 + \phi \right) \quad \text{$x$ eqn)\\
-0 &= - A \omega \sin \left( \omega \cdot 0 + \phi \right) \quad \text($v_x$ eqn)
+10 \text{ cm} &= A \cos \left( \omega \cdot 0 + \phi \right) \quad \text{$x$ eqn}\\
+0 &= - A \omega \sin \left( \omega \cdot 0 + \phi \right) \quad \text($v_x$ eqn}
 \end{align}
 ```
 
