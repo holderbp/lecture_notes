@@ -47,7 +47,7 @@ Note that, in the figure above:
 
 The qualitative description of potential and current in the previous section can be summarized in two quantitative rules, called "Kirchoff's Rules":
 
-1. Loop Rule: The sum of the changed in potential differences around any closed loop of wire is zero.
+1. **Loop Rule**: The sum of the changed in potential differences around any closed loop of wire is zero.
 
 ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
 
@@ -87,19 +87,43 @@ I_1 + I_2 &= I_\text{batt}
 \end{align}
 ```
 
-
 Equivalent Resistance
 --------------------------------------------
 
-1. Here is an unordered list
-2. Here is the second item
+Just as for systems of capacitors, it will sometimes be useful to replace a collection of resistors with a single "equivalent resistor" (e.g., to find $I_\text{batt}$).
 
-   here is a part of the second item
+For a set of **resistors in series**, the resistors sum:
+```math
+R_\text{eq} = R_1 + R_2 + \cdots
+```
+And it is easy to see why this is true:
 
-   ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
+![Figures showing why resistors in series sum.](images/08_resistors-in-series.png)
 
-3. here is the next element
-3. and the next
+where
+```math
+\begin{align}
+\Delta V_\text{AB} = \Delta V_1 + \Delta V_2 &= \Delta V_\text{eq}\\
+I R_1 + I R_2 & = I R_\text{eq} \quad \rightarrow \quad R_\text{eq} = R_1 + R_2
+\end{align}
+```
+
+For **resistors in parallel**, the potential difference across each is the same (the definition of "parallel"), but the current splits among them (not necessarily equally!).
+
+![Figures showing resistors in parallel.](images/08_resistors-in-parallel.png)
+
+To find the equation for $R_\text{eq}$ in this case, start by applying the junction rule:
+```math
+I = I_1 + I_2
+```
+and then use Ohm's law on each term:
+```math
+\frac{\Delta V_\text{AB}}{R_\text{eq}} = \frac{\Delta V_1}{R_1} + \frac{\Delta V_2}{R_2} = = \frac{\Delta V_\text{AB}}{R_1} + \frac{\Delta V_\text{AB}}{R_2} 
+```
+which yields
+```math
+\frac{1}{R_\text{eq}} = \frac{1}{R_1} + \frac{1}{R_2} + \cdots
+```
 
 Application of Kirchoff's Rules
 --------------------------------------------
