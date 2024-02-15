@@ -53,7 +53,7 @@ The qualitative description of potential and current in the previous section can
 
    For the above circuit we can write:
 
-```math
+   ```math
 \begin{align}
 \Delta V_\text{AB} + \Delta V_\text{BC} + \Delta V_\text{CD} + \Delta V_\text{DA} &= 0 \\
 -I R_1 - I R_2 + 0 + \mathcal{E} &= 0
