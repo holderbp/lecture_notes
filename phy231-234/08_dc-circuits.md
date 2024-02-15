@@ -49,7 +49,8 @@ The qualitative description of potential and current in the previous section can
 
 1. **Loop Rule**: The sum of the changed in potential differences around any closed loop of wire is zero.
 
- For the above circuit we can write:
+  For the above circuit we can write:
+
 ```math
 \begin{align}
 \Delta V_\text{AB} + \Delta V_\text{BC} + \Delta V_\text{CD} + \Delta V_\text{DA} &= 0 \\
