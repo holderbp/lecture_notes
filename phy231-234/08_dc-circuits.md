@@ -49,7 +49,6 @@ The qualitative description of potential and current in the previous section can
 
 * Loop Rule: The sum of the changed in potential differences around any closed loop of wire is zero.
 
-  ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
 
   For the above circuit we can write:
 
@@ -98,7 +97,7 @@ Equivalent Resistance
 
    here is a part of the second item
 
-   ![The second junction from the previous circuit](images/08_junctionB.png)
+   ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
 
 3. here is the next element
 3. and the next
