@@ -149,11 +149,11 @@ For these, more complicated, circuits, we need another way to solve (i.e., to de
 
 1. Draw the circuit and give all batteries and resistors unique names (variables)
 
-![A circuit that cannot be analyzed with equivalent resistors](08_kirchoffs-rules-alg-I.png)
+![A circuit that cannot be analyzed with equivalent resistors](images/08_kirchoffs-rules-alg-I.png)
 
 2. Assign a current to each wire and *assume a direction* for each (if your assumption is wrong, it's ok, you will just calculate a negative value for that current).
 
-![Assigning current names to each junctionless wire](08_kirchoffs-rules-alg-II.png)
+![Assigning current names to each junctionless wire](images/08_kirchoffs-rules-alg-II.png)
 
 3. Write down the *junction rule(s)* and keep any unique equations (but a box around it). So for junction A, above, and using our assumed current directions, we find:
 ```math
@@ -166,7 +166,7 @@ I_\text{in} = I_\text{out} \quad \rightarrow \quad I_1 = I_2 + I_3
   - \Delta V is negative going across a resistor *with the current*
   - \Delta V is positive going across a resistor *against the current*
 
-![Circuit with chosen loops and loop directions.](08_kirchoffs-rules-alg-III.png)
+![Circuit with chosen loops and loop directions.](images/08_kirchoffs-rules-alg-III.png)
 
 So for the above choices we have two loops and thus two junction rule equations. So for "Loop 1", we have (starting at point B and going clockwise):
 ```math
