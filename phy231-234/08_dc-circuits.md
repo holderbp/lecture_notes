@@ -50,6 +50,7 @@ The qualitative description of potential and current in the previous section can
 1. **Loop Rule**: The sum of the changed in potential differences around any closed loop of wire is zero.
 
    ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
+
    For the above circuit we can write:
 
    ```math
