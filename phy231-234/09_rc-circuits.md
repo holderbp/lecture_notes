@@ -86,7 +86,7 @@ X_0 = X(0) = A e^{a \cdot 0} = A \cdot 1 \quad \Rightarrow \quad A = X_0
 
 ## Discharging a Capacitor
 
-We start by considering the "filled" capacitor. We assume it has been charged by some EMF, $E$, then was disconnected from the battery, and is now holding a charge on each plate of $Q_{\text{max}} = C \cdot E$. We connect it in series with a resistor, $R$, and then at $t=0$, close the loop by closing a switch. Current will flow from the positive plate, through the resistor, to the negative plate, until $Q=0$.
+We start by considering the "filled" capacitor. We assume it has been charged by some EMF, $\mathcal{E}$, then was disconnected from the battery, and is now holding a charge on each plate of $Q_{\text{max}} = C  \mathcal{E}$. We connect it in series with a resistor, $R$, and then at $t=0$, close the loop by closing a switch. Current will flow from the positive plate, through the resistor, to the negative plate, until $Q=0$.
 
 ![Charging and then discharging a capacitor.](images/09_charging-and-discharging-capacitor.png)
 
@@ -116,35 +116,79 @@ So, we have a linear, first-order differential equation for the charge on the (p
 ```math
 Q(t) = A e^{-\frac{t}{RC}}
 ```
-Now we must deal with the unknown integration constant, $A$. Remember, its value is set by our statement about the initial condition, $Q_0 = Q(t=0)$. From our setup we know that $Q_0 = Q_{\text{max}} = CE$, so:
+Now we must deal with the unknown integration constant, $A$. Remember, its value is set by our statement about the initial condition, $Q_0 = Q(t=0)$. From our setup we know that $Q_0 = Q_{\text{max}} = C \mathcal{E}$, so:
 ```math
-Q_0 = Q(0) = A e^{-\frac{0}{RC}} = A \Rightarrow A = Q_0 = CE
+Q_0 = Q(0) = A e^{-\frac{0}{RC}} = A \Rightarrow A = Q_0 = C \mathcal{E}
 ```
 And therefore our final solution is:
 ```math
-Q(t) = Q_{\text{max}} e^{-\frac{t}{RC}} = CE e^{-\frac{t}{RC}} \quad \text{Discharging a Capacitor}
+Q(t) = Q_{\text{max}} e^{-\frac{t}{RC}} = C \mathcal{E} e^{-\frac{t}{RC}} \quad \text{Discharging a Capacitor}
 ```
 
 Using the expression for $Q(t)$, we can also now find the current, $I = -\frac{dQ}{dt}$, and the potential difference across the capacitor, $\Delta V = \frac{Q(t)}{C}$, at all times:
 ```math
-I(t) = -\frac{dQ}{dt} = -\frac{d}{dt} (CE e^{-\frac{t}{RC}}) = -\left( -\frac{1}{RC} \right) CE e^{-\frac{t}{RC}}
+I(t) = -\frac{dQ}{dt} = -\frac{d}{dt} (C \mathcal{E} e^{-\frac{t}{RC}}) = -\left( -\frac{1}{RC} \right) C\mathcal{E} e^{-\frac{t}{RC}}
 ```
 yielding:
 ```math
-I(t) = \frac{E}{R} e^{-\frac{t}{RC}}
+I(t) = \frac{\mathcal{E}}{R} e^{-\frac{t}{RC}}
 ```
 and 
 ```math
-\Delta V(t) = \frac{Q(t)}{C} = \frac{1}{C} \cdot CE e^{-\frac{t}{RC}}
+\Delta V(t) = \frac{Q(t)}{C} = \frac{1}{C} \cdot C \mathcal{E} e^{-\frac{t}{RC}}
 ```
 gives
 ```math
-\Delta V = E e^{-\frac{t}{RC}}
+\Delta V =\mathcal{E} e^{-\frac{t}{RC}}
 ```
 
+Notice that you can read off from the above expressions the initial ($t=0$) values of $I$ and $\Delta V_C$: $\mathcal{E}/R$ and $\mathcal{E}$, respectively. At $t=0$, current flows as if the capacitor is a battery with EMF $\mathcal{E}. [Our book muddles this point, claiming that you should know $I(t=0)$ before you find $Q(t)$.]
+
+So what do these functions look like?  They are each exponentials, with *time constant* $\tau = RC$:
 
 ![Graphs of charge (Q), current (I), and potential difference when discharging a capacitor.](images/09_QIV-graphs-discharging.png)
 
+What we mean by the "time constant", $\tau$, is that the function $f(t) = A \exp[-t/\tau]$ drops off to $1/e \approx 1/3$ of its $t=0$ value (i.e., $A \rightarrow 1/e A$) in the time $\tau$.
+
 ## Charging a Capacitor
+
+We starting our discussion of capacitors a few lectures ago by assuming they were fully charged; after connecting a battery to the capacitor for a long time, it acquires a charge $Q_{max} = C \mathcal{E}$. Now we will try to understand how that charging process occurs. We will assume there is a resistor $R$, in the circuit, and the battery is an ideal EMF, $\mathcal{E}$.
+
+![Charging a capacitor.](images/09_charging-a-capacitor.png)
+
+Using the case on the right (capacitor charging at $t > 0$) we can write a Kirchhoff loop rule equation:
+
+```math
+\begin{align}
+\sum \Delta V &= 0 \\
++|\Delta V_{R}| - |\Delta V_{batt}| + |\Delta V_{C}| &= 0\\
++I(t)R - \mathcal{E} + \frac{Q(t)}{C} &= 0 
+\end{align}
+```
+Again, we must be careful to correctly relate the current, $I(t)$, to the change in the charge on the capacitor $i(t)$: $\frac{dQ}{dt}$. In this case $Q$ is increasing, so
+```math
+i(t) = +\frac{dQ}{dt}
+```
+And we can write:
+```math
+\frac{dQ}{dt} \cdot R - \mathcal{E} + \frac{Q(t)}{C} = 0 \quad \rightarrow \quad \frac{dQ}{dt} = \frac{\mathcal{E}}{R} - \frac{Q}{RC}
+```
+
+This is again a linear, first-order differential equation, but the presence of the constant term, $\mathcal{E}/R$, complicates things slightly. The easiest way to deal with this is to make a substitution (a change of variables). Let's write:
+```math
+\frac{dQ}{dt} = -\frac{1}{RC} ( Q - C \mathcal{E} )
+```
+And define a new variable, $u := Q - C \mathcal{E}$. The derivative of this variable is:
+```math
+\frac{du}{dt} = \frac{d}{dt} \left( Q(t) - C \mathcal{E} \right) = \frac{dQ}{dt}
+```
+So we can rewrite our differential equation as:
+```math
+\frac{du}{dt} = -\frac{1}{RC} u \quad \quad \text{(ah... that's better!)}
+```
+Which we know has solution:
+```math
+u(t) = A e^{-t/RC}
+```
 
 ![Graphs of charge (Q), current (I), and potential difference when charging a capacitor.](images/09_QIV-graphs-charging.png)
