@@ -64,11 +64,11 @@ where (i) the potential drops across the resistors are negative because we have 
 
 ![Circuit for demonstrating Kirchoff's junction rule.](images/08_junction-rule-circuit.png)
 
-    There are two junctions in the above circuit and both give the same equation.  At point A:
+There are two junctions in the above circuit and both give the same equation.  At point A:
 
 ![One junction from the previous circuit](images/08_junctionA.png)
 
-    we have
+we have
 ```math
 \begin{align}
 I_\text{in} &= I_\text{out}\\
@@ -76,7 +76,7 @@ I_\text{batt} & = I_1 + I_2
 \end{align}
 ```
 
-    And at point B:
+And at point B:
 
 ![The second junction from the previous circuit](images/08_junctionB.png)
 
