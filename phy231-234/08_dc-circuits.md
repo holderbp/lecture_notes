@@ -185,3 +185,5 @@ and, for "Loop 2" we have (starting at point B and going clockwise):
 \rightarrow \quad & \mathcal{E}_2 = I_2 R_2 + I_2 R_3
 \end{align}
 ```
+
+5. Use the results (your boxed equations) to *solve for the unknowns* of the problem.  For example, if we knew the values of $\mathcal{E}_1$ and $\mathcal{E}_2$ fromt he beginning, along with the values of the resistors, then we could solve these three equations (junction equation plus two loop equations) for the three unknowns: $I_1$, $I_2$, and $I_3$.
