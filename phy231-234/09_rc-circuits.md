@@ -42,12 +42,14 @@ We found that this second-order differential equation has the following solution
 Because if you take two derivatives of $x(t)$, you obtain $-\omega^2 x(t)$. The arbitrary constants in this solution, $A$ and $\phi$, were set by our choice of initial conditions, the initial position, $x(0)$, and velocity, $v(0)$.
 
 For example, choose $\left[x_0 = 10 \text{ cm}, v_0 = 0 \right]$. Then:
+
 ```math
 \begin{align}
-10 \text{ cm}  &= A \cos \left( \omega \cdot 0 + \phi \right) \quad \text{$x$ eqn)\\
-0 & = - A \omega \sin \left( \omega \cdot 0 + \phi \right) \quad \text($v_x$ eqn)
+10 \text{ cm} &= A \cos \left( \omega \cdot 0 + \phi \right) \quad \text{$x$ eqn)\\
+0 &= - A \omega \sin \left( \omega \cdot 0 + \phi \right) \quad \text($v_x$ eqn)
 \end{align}
 ```
+
 The second equation implies that $\sin\phi = 0$, which implies that $\phi = 0$ or $\phi = \pi$.  And the first equation gives us:
 ```math
 A \cos \phi = 10 \text{ cm} \quad \rightarrow \quad \left[ A = 10 \text{ cm}, \phi =0\right]
