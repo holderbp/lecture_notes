@@ -52,7 +52,8 @@ One way to solve this equation is to guess a solution (what function \( f(t) \) 
 \int \left( \frac{1}{X} \frac{dX}{dt} \right) dt & = \int a \, dt \\
 \int \frac{1}{X} \, dX & = at + C\\
 \ln(X) & = at + C \\
-X(t) & = e^{at + C'} \quad \Rightarrow \quad X(t) = A e^{at} 
+X(t) & = e^{at + C'} \quad \Rightarrow \quad X(t) = A e^{at}
+\end{align}
 ```
 We can check that this is a solution:
 ```math
