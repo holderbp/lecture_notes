@@ -94,6 +94,14 @@ I_1 + I_2 &= I_\text{batt}
 Equivalent Resistance
 --------------------------------------------
 
+* Here is an unordered list
+* Here is the second item
+
+  here is a part of the second item
+
+* here is the next element
+* and the next
+
 Application of Kirchoff's Rules
 --------------------------------------------
 
