@@ -206,6 +206,7 @@ And then we use our known initial condition, $Q(0) = 0$, to solve for $A$:
 \begin{align}
 Q(0) &= A e^{0/RC} + C\mathcal{E}\\
 0 & = A + C\mathcal{E} \quad \rightarrow \quad A = -C\mathcal{E}
+\end{align}
 ```
 So, our final solution for the capacitor's charge as a function of time is:
 ```math
