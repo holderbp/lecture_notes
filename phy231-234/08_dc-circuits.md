@@ -51,7 +51,7 @@ The qualitative description of potential and current in the previous section can
 
 ![Circuit for demonstrating Kirchoff's loop rule.](images/08_loop-rule-circuit.png)
 
-For the above circuit we can write:
+  For the above circuit we can write:
 ```math
 \begin{align}
 \Delta V_\text{AB} + \Delta V_\text{BC} + \Delta V_\text{CD} + \Delta V_\text{DA} &= 0 \\
