@@ -38,6 +38,7 @@ Please do not compile the LaTeX into display mode, I need the raw code for editi
 ![Inserting a dielectric into a capacitor reduces the electric field (if that capacitor has been charged and disconnected from the battery beforehand)](images/06_capacitor-w-dielectric.png)
 ```
 7. `git add` all files (markdown and images), commit, and push to github.
+8. Repeat for next page.
 
 ## Fix-me's (2024)
 
