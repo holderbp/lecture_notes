@@ -210,18 +210,18 @@ The energy stored in a capacitor is the work required to rearrange the configura
 
 If a capacitor already has a stored charge $Q_i$, the work done by the electric field when an additional $\Delta Q$ is moved is:
 ```math
-W_{F_{\text{elec}}} = \vec{F} \cdot \vec{d} = -E \Delta Qd
+W_{F_{\text{elec}}} = \vec{F} \cdot \Delta \vec{s} = -E \Delta q d
 ```
 So the change in potential energy (stored energy in the capacitor) is:
 ```math
-\Delta U = -W_{F_{\text{elec}}} = + \Delta Q E d = \Delta Q \Delta V
+\Delta U = -W_{F_E} = + \Delta q E d = \Delta q \Delta V
 ```
 
-As charges are added, the electric field strength increases so our "work done by a constant force" rule can only be applied to small chunks of charge (i.e., we can not say that $U=\frac{1}{2}Q\Delta V$).
+As charges are added, the electric field strength increases so our "work done by a constant force" rule can only be applied to small chunks of charge (i.e., we can not say that $U=Q \Delta V$).
 
-So we must calculate the work done by summing over small $\Delta Q$ ("integrating") and we find that:
+So we must calculate the work done by summing over small $\Delta q$ ("integrating") and we find that:
 ```math
-W_{F_{\text{elec}}} = -\left(\sum_{i=1}^{n} \Delta Q E(i)\right) d = -\frac{Q \Delta V}{2}
+W_{F_{\text{elec}}} = -\left(\sum_{i=1}^{N} \Delta q E(q_i)\right) d = -\frac{Q E d}{2}
 ```
 
 ![How to sum up the work for sequentially loading a capacitor with charge](images/06_work-integral.png)
