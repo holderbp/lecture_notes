@@ -245,7 +245,7 @@ If a capacitor is charged at a certain potential difference, $\Delta V$, and the
 
 ![Inserting a dielectric into a capacitor reduces the electric field (if that capacitor has been charged and disconnected from the battery beforehand)](images/06_capacitor-w-dielectric.png)
 
-Polarization of the insulator will create an induced charge on its surface (opposite to that on the nearby conductor). This weakens the electric field between the plates. A weaker electric field implies a smaller potential difference between the two plates ($\Delta V = E_d$, for uniform field). Therefore, the capacitance is changed:
+Polarization of the insulator will create an induced charge on its surface (opposite to that on the nearby conductor). This weakens the electric field between the plates. A weaker electric field implies a smaller potential difference between the two plates ($\Delta V = E d$, for uniform field). Therefore, the capacitance is changed:
 ```math
 C_0 = \frac{Q}{\Delta V} \quad \rightarrow \quad C_{\text{new}} = \frac{Q}{\Delta V_{\text{new}}} > C_0
 ```
