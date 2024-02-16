@@ -104,7 +104,7 @@ A **capacitor** is a tool for storing energy in a static electric field, when ch
 
 A capacitor can be **charged** by connecting the two conductors to opposite poles (or terminals) of a battery (a device that maintains a constant potential difference, $\Delta V$, between its poles ... more soon!)
 
-![Diagram of a battery connected to two plates with potential $V+$ and $V-$, and electric field lines indicating positive charge $+Q$ and negative charge $-Q$](images/06_capacitors-parallel-plate.png)
+![Diagram of a battery connected to two plates, forming a capacitor](images/06_capacitors-parallel-plate.png)
 
 The charge acquired by each conductor is proportional to the applied potential difference, $\Delta V$:
 ```math
