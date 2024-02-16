@@ -31,7 +31,7 @@ Please do not compile the LaTeX into display mode, I need the raw code for editi
 5. Open the image png files in Preview and crop (cmd-k) the figure section.
 5. Copy the ChatGPT transcript into a markdown file (`06_equipotential-capacitance.md`) and adjust things:
     - Adjust headings how you want
-    - make block equations by replacing the ChatGPT `\[` with \`\`\`math and `\]` with \`\`\`.
+    - make block equations by replacing the ChatGPT `\[` with `\`\`\`math` and `\]` with \`\`\`.
     - Check for ChatGPT hallucinations (it will change equations if it doesn't like them, or thinks they would be better based on the rest of the text).
 6. Insert figures into text using, e.g.,
 ```
