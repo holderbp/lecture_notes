@@ -13,6 +13,7 @@ The work is being done by the force of the electric field, $\vec{F}_e = q_e \vec
 \begin{align}
 \Delta V & = \frac{-W_e}{q_{\text{test}}} = \frac{-\vec{F}_e \cdot \Delta \vec{s}}{q_{\text{test}}} = \frac{-q_{\text{test}} \vec{E} \cdot \Delta \vec{s}}{q_{\text{test}}}\\
 & \Rightarrow \Delta V = - \vec{E} \cdot \Delta \vec{s}
+\end{align}
 ```
 (For a uniform electric field, this is the same as our expression: $\Delta V = -Ed$)
 
