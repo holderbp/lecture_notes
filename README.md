@@ -13,7 +13,7 @@ This is a work in progress: so far only a few of the PHY 231/234 notes are avail
 ```
 > pdftk 06_equipotential-capacitance.pdf cat 1 output junk.pdf && convert -density 200 junk.pdf junk.png
 ```
-3. Open a new ChatGPT window and use the following prompt with the attached `junk.png` file:
+3. Open a new ChatGPT chat instance and use the following prompt with the attached `junk.png` file:
 ```
 Please transcribe the text from the uploaded image into plain text, including LaTeX for the mathematical content. The equations should be formatted as raw LaTeX code, suitable for copying and pasting directly into a Markdown or LaTeX document. Place it in a "markdown" style code window for copying.
 
@@ -28,7 +28,7 @@ y = mx + b
 Please do not compile the LaTeX into display mode, I need the raw code for editing purposes.
 ```
 4. Copy the junk.png file into the `images` directory.  Make multiple copies of it, one for each figure appearing on that page.  Give images names like `06_capacitor-w-dielectric.png`
-5. Open the image png files in Preview and crop (cmd-k) the figure section.
+5. Open each image png file in Preview and crop (cmd-k) the figure.
 5. Copy the ChatGPT transcript into a markdown file (`06_equipotential-capacitance.md`) and adjust things:
     - Adjust headings how you want
     - make block equations by replacing the ChatGPT `\[` with \`\`\`math and `\]` with \`\`\`.
