@@ -29,16 +29,16 @@ Please do not compile the LaTeX into display mode, I need the raw code for editi
 ```
 4. Copy the junk.png file into the `images` directory.  Make multiple copies of it, one for each figure appearing on that page.  Give images names like `06_capacitor-w-dielectric.png`
 5. Open each image png file in Preview and crop (cmd-k) the figure.
-5. Copy the ChatGPT transcript into a markdown file (`06_equipotential-capacitance.md`) and adjust things:
+6. Copy the ChatGPT transcript into a markdown file (`06_equipotential-capacitance.md`) and adjust things:
     - Adjust headings how you want
     - make block equations by replacing the ChatGPT `\[` with \`\`\`math and `\]` with \`\`\`.
     - Check for ChatGPT hallucinations (it will change equations if it doesn't like them, or thinks they would be better based on the rest of the text).
-6. Insert figures into text using, e.g.,
+7. Insert figures into text using, e.g.,
 ```
 ![Inserting a dielectric into a capacitor reduces the electric field (if that capacitor has been charged and disconnected from the battery beforehand)](images/06_capacitor-w-dielectric.png)
 ```
-7. `git add` all files (markdown and images), commit, and push to github.
-8. Repeat for next page.
+8. `git add` all files (markdown and images), commit, and push to github.
+9. Repeat for next page.
 
 ## Fix-me's (2024)
 
