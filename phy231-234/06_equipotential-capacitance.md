@@ -192,7 +192,6 @@ So, to find the equivalent capacitance, we write
 using the definition of capacitance:
 ```math
 \frac{Q}{C_{eq}} = \frac{Q_1}{C_1} + \frac{Q_2}{C_2} + \frac{Q_3}{C_3}
-\]
 ```
 and assuming same charge,
 ```math
@@ -203,4 +202,37 @@ and dividing off $Q$,
 \frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} \quad \text{capacitors in series}
 ```
 
+### Energy Stored in a Capacitor
 
+The energy stored in a capacitor is the work required to rearrange the configuration of charges.
+
+![Calculating work to "raise" a charge against the electric field in a parallel plate capacitor](images/06_work-raising-charge-capacitor.png)
+
+If a capacitor already has a stored charge $Q_i$, the work done by the electric field when an additional $\Delta Q$ is moved is:
+```math
+W_{F_{\text{elec}}} = \vec{F} \cdot \vec{d} = -E \Delta Qd
+```
+So the change in potential energy (stored energy in the capacitor) is:
+```math
+\Delta U = -W_{F_{\text{elec}}} = + \Delta Q E d = \Delta Q \Delta V
+```
+
+As charges are added, the electric field strength increases so our "work done by a constant force" rule can only be applied to small chunks of charge (i.e., we can not say that $U=\frac{1}{2}Q\Delta V$).
+
+So we must calculate the work done by summing over small $\Delta Q$ ("integrating") and we find that:
+```math
+W_{F_{\text{elec}}} = -\left(\sum_{i=1}^{n} \Delta Q E(i)\right) d = -\frac{Q \Delta V}{2}
+```
+
+![How to sum up the work for sequentially loading a capacitor with charge](images/06_work-integral.png)
+
+The potential energy stored in a capacitor is therefore:
+```math
+  U = \frac{1}{2} Q \Delta V
+```
+where $Q$ is the total charge on one plate and $\Delta V$ is the potential difference across the plates. Using $Q = C\Delta V$ we could also write:
+```math
+U = \frac{1}{2} C (\Delta V)^2 = \frac{Q^2}{2C}
+```
+
+Note that the capacitance, $C$, limits the energy stored for a given $\Delta V$. This can be increased by inserting a dielectric between the plates...
