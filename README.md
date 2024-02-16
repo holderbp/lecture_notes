@@ -30,8 +30,8 @@ Please do not compile the LaTeX into display mode, I need the raw code for editi
 4. Copy the junk.png file into the `images` directory.  Make multiple copies of it, one for each figure appearing on that page.  Give images names like `06_capacitor-w-dielectric.png`
 5. Open the image png files in Preview and crop (cmd-k) the figure section.
 5. Copy the ChatGPT transcript into a markdown file (`06_equipotential-capacitance.md`) and adjust things:
-  - Adjust headings how you want
-  - make block equations using \`\`\`math
+    - Adjust headings how you want
+    - make block equations using \`\`\`math
 6. Insert figures into text using, e.g.,
 ```
 ![Inserting a dielectric into a capacitor reduces the electric field (if that capacitor has been charged and disconnected from the battery beforehand)](images/06_capacitor-w-dielectric.png)
