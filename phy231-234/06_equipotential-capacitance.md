@@ -133,7 +133,7 @@ So, the **capacitance of a parallel plate capacitor** is:
 C_{pp} = \frac{Q}{\Delta V} = \frac{E_{pp} \varepsilon_0 A}{E_{pp} d} = \frac{\varepsilon_0 A}{d} \implies C_{pp} = \frac{\varepsilon_0 A}{d}
 ```
 
-Note that this expression does not depend on $ E $, $ Q $, or $ \Delta V $, only on the physical properties of the capacitor (and the constant $ \varepsilon_0 = \frac{1}{4\pi k} $).
+Note that this expression does not depend on $E$, $Q$, or $\Delta V$, only on the physical properties of the capacitor (and the constant $\varepsilon_0 = \frac{1}{4\pi k}$).
 
 ### Simple circuit with a capacitor
 
