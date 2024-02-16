@@ -35,7 +35,7 @@ Please do not compile the LaTeX into display mode, I need the raw code for editi
     - Check for ChatGPT hallucinations (it will change equations if it doesn't like them, or thinks they would be better based on the rest of the text).
 7. Insert figures into text using, e.g.,
 ```
-![Inserting a dielectric into a capacitor reduces the electric field (if that capacitor has been charged and disconnected from the battery beforehand)](images/06_capacitor-w-dielectric.png)
+![alt-text caption](images/06_capacitor-w-dielectric.png)
 ```
 8. `git add` all files (markdown and images), commit, and push to github.
 9. Repeat for next page.
