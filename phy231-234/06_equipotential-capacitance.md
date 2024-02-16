@@ -143,5 +143,37 @@ When we connect a capacitor to a battery, it is a type of **circuit** (much more
 
 Once charged, the value of the potential on each plate is that of the battery terminal it is connected to, so we could say the top half is at $V_+$ and the bottom is at $V_-$.
 
-While charging the story is complicated, we will talk a bit about this w/ "RC circuits".
+While charging, the story is complicated; we will talk a bit about this w/ "RC circuits".
+
+### Capacitors in Parallel
+
+When two or more capacitors are connected across the same potential difference, they are said to be "connected in parallel".
+
+![Three capacitors in parallel across a battery. Colors indicate potential value, "differences in color", across a circuit element, represent potential difference](images/06_three-capacitors-parallel-colored-potential.png)
+
+For a collection of capacitors, it will be useful to determine their **equivalent capacitance**, meaning the capacitance of a replacement capacitor which would change nothing about the circuit.
+
+![Three capacitors in parallel across a battery. Combine three and call it a new capacitor, the equivalent capacitor](images/06_three-capacitors-parallel-equiv-I.png)
+
+If the battery "sees" the same charge on the equivalent capacitor that it does on the capacitors in parallel,
+
+![Three capacitors in parallel across a battery. Comparing charge on the original three to the equivalent](images/06_three-capacitors-parallel-equiv-II.png)
+
+Then it must be true that:
+```math
+Q = Q_1 + Q_2 + Q_3
+```
+and, using the def'n of capacitance,
+```math
+\begin{align}
+C_{eq}\Delta V & = C_1\Delta V_1 + C_2\Delta V_2 + C_3\Delta V_3 \\
+C_{eq}\Delta V &= C_1\Delta V + C_2\Delta V + C_3\Delta V
+\end{align}
+```
+dividing off $\Delta V$
+```math
+C_{eq} = C_1 + C_2 + C_3 \quad \text{capacitors in parallel}
+```
+
+
 
