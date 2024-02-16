@@ -87,6 +87,8 @@ We see, then, that the (scalar) potential field is an alternative way to represe
 
 ### Conductors in electrostatic equilibrium
 
+![Equipotential surfaces near and on a conductor](images/06_equipotential-conductor.png)
+
 For a **conductor in equilibrium** (charges are not accelerating), we stated previously that the electric field was (i) zero inside the conductor and (ii) perpendicular to its surface. This means that the *entire conductor* (interior and surface) *is an equipotential surface*.  Since
 ```math
 V = \text{const.} \quad \rightarrow \quad \frac{\Delta V}{\Delta r} = 0 \quad \rightarrow \quad E = 0
