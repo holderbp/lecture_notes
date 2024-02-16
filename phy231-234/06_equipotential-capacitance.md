@@ -137,15 +137,7 @@ Note that this expression does not depend on $E$, $Q$, or $\Delta V$, only on th
 
 ### Simple circuit with a capacitor
 
-When we connect a capacitor to a battery, it is a type of **circuit** (much more later). When drawing circuits, a capacitor is represented by
-
-![capacitor circuit element](06_capacitor-circuit-element.png)
-
-and a battery by
-
-![battery circuit element](06_battery-circuit-element.png)
-
-Wires are represented by lines.
+When we connect a capacitor to a battery, it is a type of **circuit** (much more later). When drawing circuits, a capacitor is represented by ![capacitor circuit element](images/06_capacitor-circuit-element.png) and a battery by ![capacitor circuit element](images/06_battery-circuit-element.png). Wires are represented by lines.
 
 ![Simple circuit: battery connected to a single capacitor.](images/06_simple-capacitor-circuit.png)
 
