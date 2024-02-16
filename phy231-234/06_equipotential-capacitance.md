@@ -93,3 +93,24 @@ For a **conductor in equilibrium** (charges are not accelerating), we stated pre
 ```math
 V = \text{const.} \quad \rightarrow \quad \frac{\Delta V}{\Delta r} = 0 \quad \rightarrow \quad E = 0
 ```
+
+## Capacitors
+
+### Overview
+
+A **capacitor** is a tool for storing energy in a static electric field, when charged, it consists of two equally but oppositely-charged conductors and an electric field which connects them.
+
+![Diagram of electric field lines between two conductors: conducting spheres (left) and conducting plates (below) acting as capacitors.)](images/06_capacitors-spheres-plates.png)
+
+A capacitor can be **charged** by connecting the two conductors to opposite poles (or terminals) of a battery (a device that maintains a constant potential difference, $\Delta V$, between its poles ... more soon!)
+
+![Diagram of a battery connected to two plates with potential $V+$ and $V-$, and electric field lines indicating positive charge $+Q$ and negative charge $-Q$](images/06_capacitors-parallel-plate.png)
+
+The charge acquired by each conductor is proportional to the applied potential difference, $\Delta V$:
+```math
+Q = C \Delta V
+```
+The constant of proportionality, $C$, is called the **capacitance** of the capacitor. This can be calculated from the charge and pot. diff. ($C = Q/\Delta V$) but the constant depends only on the properties of the capacitor itself.
+
+### Parallel-plate capacitor
+
