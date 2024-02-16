@@ -2,10 +2,14 @@
 
 ## Equipotential Surfaces
 
+### Change in potential for region of uniform E field
+
 Last time we defined the change in potential as
    ```math
    \Delta V = \frac{\Delta U_e}{q_{\text{test}}} = \frac{-W_e}{q_{\text{test}}}
    ```
+![Change in potential along path in E field](images/06_Vi-to-Vf.png)
+
 Meaning that the change in potential from one point in an electric field to another is found by calculating the change in potential energy (U) when moving a test charge between those two points, and dividing by that charge.
 
 The work is being done by the force of the electric field, $\vec{F}_e = q_e \vec{E}$, so we can write
@@ -17,6 +21,10 @@ The work is being done by the force of the electric field, $\vec{F}_e = q_e \vec
 ```
 (For a uniform electric field, this is the same as our expression: $\Delta V = -Ed$)
 
+### Dot/Scalar product of vectors, and consequences for $\Delta V$
+
+![Angle between A and B for dot product](images/06_dot-product-A-B.png)
+
 Recall that the "dot product" is:
 ```math
 \vec{A} \cdot \vec{B} = AB \cos \theta_{AB}
@@ -27,8 +35,12 @@ Meaning that it is:
 - Zero when $\vec{A} \perp \vec{B}$ ($\theta_{AB} = 90^\circ$)
 - Negative when $\vec{A}$ & $\vec{B}$ point in "opposite dir." ($90^\circ < \theta_{AB} \leq 180^\circ$)
 
+![Change of potential in different directions within E field](images/06_delta-V-in-E.png)
+
 So, the change in potential, $\Delta V$, is:
 
 - Negative when moving along the E-field lines
 - Zero when moving perpendicular to the E-field
 - Positive when moving against the E-field lines
+
+###
