@@ -11,7 +11,7 @@ This is a work in progress: so far only a few of the PHY 231/234 notes are avail
 1. Copy pdf version of lecture notes to a directory
 2. Extract one page as a png file
 ```
-> pdftk 06_equipotential-capacitance.pdf cat 9 output junk.pdf && convert -density 200 junk.pdf junk.png
+> pdftk 06_equipotential-capacitance.pdf cat 1 output junk.pdf && convert -density 200 junk.pdf junk.png
 ```
 3. Open a new ChatGPT window and use the following prompt with the attached `junk.png` file:
 ```
@@ -28,6 +28,7 @@ y = mx + b
 Please do not compile the LaTeX into display mode, I need the raw code for editing purposes.
 ```
 4. Copy the junk.png file into the `images` directory.  Make multiple copies of it, one for each figure appearing on that page.  Give images names like `06_capacitor-w-dielectric.png`
+5. Open the image png files in Preview and crop (cmd-k) the figure section.
 5. Copy the ChatGPT transcript into a markdown file (`06_equipotential-capacitance.md`) and adjust things:
   - Adjust headings how you want
   - make block equations using \`\`\`math
@@ -35,6 +36,7 @@ Please do not compile the LaTeX into display mode, I need the raw code for editi
 ```
 ![Inserting a dielectric into a capacitor reduces the electric field (if that capacitor has been charged and disconnected from the battery beforehand)](images/06_capacitor-w-dielectric.png)
 ```
+7. `git add` all files (markdown and images), commit, and push to github.
 
 ## Fix-me's (2024)
 
