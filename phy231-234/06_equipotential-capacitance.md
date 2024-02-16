@@ -114,3 +114,34 @@ The constant of proportionality, $C$, is called the **capacitance** of the capac
 
 ### Parallel-plate capacitor
 
+The most common type of capacitor is the **Parallel-Plate Capacitor**: Two conducting plates of area $ A $, separated by a distance $ d $.
+
+![Parallel plate capacitor with plate area A and separation distance d](images/06_parallel-plate-d-A.png)
+
+We already know that the (near) uniform field between the plates is:
+```math
+E_{pp} = \frac{\sigma}{\varepsilon_0} = \frac{Q}{\varepsilon_0 A}
+```
+
+And the change in potential along a constant $ E $ field is
+```math
+\Delta V = -Ed
+```
+
+So, the **capacitance of a parallel plate capacitor** is:
+```math
+C_{pp} = \frac{Q}{\Delta V} = \frac{E_{pp} \varepsilon_0 A}{E_{pp} d} = \frac{\varepsilon_0 A}{d} \implies C_{pp} = \frac{\varepsilon_0 A}{d}
+```
+
+Note that this expression does not depend on $ E $, $ Q $, or $ \Delta V $, only on the physical properties of the capacitor (and the constant $ \varepsilon_0 = \frac{1}{4\pi k} $).
+
+### Simple circuit with a capacitor
+
+When we connect a capacitor to a battery, it is a type of **circuit** (much more later). When drawing circuits, a capacitor is represented by $ \parallel $ and a battery by $ + $ - . Wires are represented by lines.
+
+![Simple circuit: battery connected to a single capacitor.](images/06_simple-capacitor-circuit.png)
+
+Once charged, the value of the potential on each plate is that of the battery terminal it is connected to, so we could say the top half is at $ V_+ $ and the bottom is at $ V_- $.
+
+While charging the story is complicated, we will talk a bit about this w/"RC circuits".
+
