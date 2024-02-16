@@ -236,3 +236,20 @@ U = \frac{1}{2} C (\Delta V)^2 = \frac{Q^2}{2C}
 ```
 
 Note that the capacitance, $C$, limits the energy stored for a given $\Delta V$. This can be increased by inserting a dielectric between the plates...
+
+
+
+### Dielectrics in Capacitors
+
+If a capacitor is charged at a certain potential difference, $\Delta V$, and then removed from the battery, it will maintain a charge of $Q = C\Delta V$. If an insulating material is then inserted between the conductors (a so-called **dielectric**):
+
+![Inserting a dielectric into a capacitor reduces the electric field (if that capacitor has been charged and disconnected from the battery beforehand)](images/06_capacitor-w-dielectric.png)
+
+Polarization of the insulator will create an induced charge on its surface (opposite to that on the nearby conductor). This weakens the electric field between the plates. A weaker electric field implies a smaller potential difference between the two plates ($\Delta V = E_d$, for uniform field). Therefore, the capacitance is changed:
+```math
+C_0 = \frac{Q}{\Delta V} \quad \rightarrow \quad C_{\text{new}} = \frac{Q}{\Delta V_{\text{new}}} > C_0
+```
+The ratio $\kappa = \frac{C_{\text{new}}}{C_0} \geq 1$ is called the dielectric constant of the insulating material.
+
+Note that the presence of a dielectric increases the capacitance, $C_{\text{new}} > C_0$, and thus the stored energy (at a given $\Delta V$).
+
