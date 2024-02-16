@@ -175,5 +175,32 @@ dividing off $\Delta V$
 C_{eq} = C_1 + C_2 + C_3 \quad \text{capacitors in parallel}
 ```
 
+### Capacitors in Series
+
+When two or more capacitors are connected in a line such that the potential difference across the whole set is equal to the sum of the potential differences across each capacitor, then are said to be "connected in series."
+
+![Three capacitors in series, with potential difference across each summing to the potential difference of the battery](images/06_three-capacitors-series-potential.png)
+
+Before trying to find the equivalent capacitance for capacitors in series, we should note something about the charge on each!
+
+![Three capacitors in series, showing that charge is equal on each](images/06_three-capacitors-series-charge.png)
+
+So, to find the equivalent capacitance, we write
+```math
+\Delta V = \Delta V_1 + \Delta V_2 + \Delta V_3
+```
+using the definition of capacitance:
+```math
+\frac{Q}{C_{eq}} = \frac{Q_1}{C_1} + \frac{Q_2}{C_2} + \frac{Q_3}{C_3}
+\]
+```
+and assuming same charge,
+```math
+Q = \frac{Q}{C_{eq}} = \frac{Q}{C_1} + \frac{Q}{C_2} + \frac{Q}{C_3}
+```
+and dividing off $Q$,
+```math
+\frac{1}{C_{eq}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} \quad \text{capacitors in series}
+```
 
 
