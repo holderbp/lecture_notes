@@ -49,23 +49,45 @@ So, at any point in an electric field one can trace out a line (or surface, in 3
 
 ![Equipotential lines (lines of constant V) on an arbitrary electric field)](images/06_equipotential-wavy-E.png)
 
-Using lines of constant potential separated by equal intervals $\Delta V$, we can construct a contour map
+Using lines of constant potential separated by equal intervals $\Delta V$, we can construct a **contour map**
 
 ![Equipotential lines for uniform E field (left) and point charge E field (right)](images/06_equipotential-uniform-and-point.png)
 
 ### Getting $\vec{E}$ field from $V$
 
-In fact, given a contour map of the potential, we can reconstruct the electric field using two rules:
+In fact, given a contour map of the potential, we can *reconstruct the electric field* using two rules:
 
-1. The electric field magnitude at a point is given by the change in potential with distance:
+1. The electric field *magnitude* at a point is given by the change in potential with distance:
 ```math
 E = \frac{\Delta V}{\Delta r_{max}}
 ```
 where $\Delta r_{max}$ is a displacement in the direction of maximum change of $V$ (increasing $V$).
 
-2. The direction of the electric field is opposite to the direction of maximum change in $V$ at that point.
+2. The *direction* of the electric field is opposite to the direction of maximum change in $V$ at that point.
 
 In math, this is called "The Gradient"
 ```math
 \vec{E} = -\nabla V
+```
+
+### Example: Sketch the electric field corresponding to the potential contour map
+
+![Example contour map of potential, V](images/06_contours-example.png)
+
+
+Sketching the electric field *vectors* at a few points in space:
+
+![Electric field vectors for the given contour plot of V](images/06_contours-field-vectors.png)
+
+Drawing the electric *field lines* for all points in space (recall: (i) lines are closer together where field is stronger, and (ii) the field lines are always parallel to the field vectors.
+
+![Electric field lines for the given contour plot of V](images/06_contours-field-lines.png)
+
+We see, then, that the (scalar) potential field is an alternative way to represent a (vector) electric field.
+
+### Conductors in electrostatic equilibrium
+
+For a **conductor in equilibrium** (charges are not accelerating), we stated previously that the electric field was (i) zero inside the conductor and (ii) perpendicular to its surface. This means that the *entire conductor* (interior and surface) *is an equipotential surface*.  Since
+```math
+V = \text{const.} \quad \rightarrow \quad \frac{\Delta V}{\Delta r} = 0 \quad \rightarrow \quad E = 0
 ```
