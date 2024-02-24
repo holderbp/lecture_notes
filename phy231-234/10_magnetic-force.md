@@ -13,11 +13,11 @@
 
 * There are **attractive/repulsive forces** between opposite/same poles:
 
-![Like poles of two magnets repel. Opposite poles attract](10_attract-repel-bar-magnet.png)
+![Like poles of two magnets repel. Opposite poles attract](images/10_attract-repel-bar-magnet.png)
 
 * A magnet has a surrounding magnetic field (more later).
 
-![A compass needle is a magnet.  It aligns with the magnetic field of the earth and points toward geographic North.](10_geomagnetic-north-compass.png)
+![A compass needle is a magnet.  It aligns with the magnetic field of the earth and points toward geographic North.](images/10_geomagnetic-north-compass.png)
 
 * A magnet (e.g., a compass needle) will *align* in the magnetic field of another magnet (e.g., the Earth). (There is a torque on a magnetic dipole causing this alignment, we will not explore this further).
 
