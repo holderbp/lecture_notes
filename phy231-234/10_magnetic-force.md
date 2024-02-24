@@ -65,6 +65,19 @@ We can probe the space around a magnet with a compass to determine the magnetic 
 
 ![Using a compass to explore the magnetic field of a bar magnet (left) and the resulting magnetic field lines (right)](images/10_compasses-B-field-bar-magnet.png)
 
+### Magnetic field of the Earth
+
+Compasses can also be used to probe the magnetic field of the Earth. In our classroom in Allendale, MI, compasses restricted to the horizontal and vertical planes shown:
+
+![We can identify the magnetic field vector at our point on Earth (Allendale, MI), using a horizontal and a vertical compass](images/10_magnetic-field-earth-in-classroom.png)
+
+These probes indicate that the magnetic field points down into the Earth, with a component pointing toward our geographic North Pole.
+
+If we put this on a globe and assume some symmetry...
+
+![Using the direction of the magnetic field at one point on the Earth (Allendale) we can extrapolate what the field looks like at other points, assuming symmetry](images/10_magnetic-field-of-earth.png)
+
+Based on the field lines drawn, you can sketch the "bar magnet that sits inside the Earth" to create this field (do it!). The field actually flips its polarity every 100,000 years or so, and we don’t actually know exactly what creates the field or its dynamics.
 
 
 
