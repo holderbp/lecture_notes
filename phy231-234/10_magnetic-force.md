@@ -46,5 +46,26 @@ So-called "Permanent Magnets" are made from **ferromagnetic8* materials. These h
 
 ![Iron and its unpaired electrons make it an archtypal ferromagnetic material](images/10_iron-unpaired-electrons.png)
 
-If a ferromagnetic material is heated above a critical temperature (the Curie temperature) it loses the ability to form domains (and thus lasting magnetism). These materials are called **paramagnetic**.
+If a ferromagnetic material is heated above a critical temperature (the **Curie temperature**) it loses the ability to form domains (and thus lasting magnetism). These materials are called **paramagnetic**.
+
+
+## Magnetic Field
+
+Just as we defined the electric field through the force on a test charge, we will define magnetic field direction by the alignment of magnets within it.
+
+![A compass needle, which is a bar magnet itself, aligning in an external magneetic field B](images/10_compass-B-field.png)
+
+The **magnetic field at a point in space** points in the direction of a magnet's alignment (e.g., a compass needle).
+
+**Magnetic field lines** are continuous lines which are everywhere parallel to the magnetic field.
+
+We can probe the space around a magnet with a compass to determine the magnetic field at each point in space (see below)
+
+### Magnetic field lines of a bar magnet
+
+![Using a compass to explore the magnetic field of a bar magnet (left) and the resulting magnetic field lines (right)](images/10_compasses-B-field-bar-magnet.png)
+
+
+
+
 
