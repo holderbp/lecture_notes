@@ -137,7 +137,7 @@ The electric field will cause a force on the electron
 ```
 pointing opposite to the field.
 
-![Schematic of a velocity selector: a charged particle is also within a magnetic field](10_velocity-selector-B-field.png)
+![Schematic of a velocity selector: a charged particle is also within a magnetic field](images/10_velocity-selector-B-field.png)
 
 To balance $\vec{F}_E$ there must be a downward-pointing force, $\vec{F}_B$, of equal magnitude.
 
