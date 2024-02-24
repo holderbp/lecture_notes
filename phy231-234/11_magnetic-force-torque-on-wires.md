@@ -90,7 +90,8 @@ Recall the definition of torque on an object rotating about an axis (consider $z
 & = F r \sin \theta
 \end{align}
 ```
-Note that in the figure above, the magnitude of the torque of the child's weight is  $\tau = \ell m g$, where we use the second expression for $| \vec{\tau}$, where $\ell = r_\text{$\perp$ to $F$}$.
+
+Note that in the figure above, the magnitude of the torque of the child's weight is  $\tau = \ell m g$, where we have used the second expression for $|\vec{\tau}$, where $\ell = r_\text{perp to F}$.
 
 ### Torque on current loop
 
