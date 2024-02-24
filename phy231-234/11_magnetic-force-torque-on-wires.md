@@ -65,7 +65,7 @@ F_{circ,y} & = I R B \left[ -\cos \theta \right]_0^{\pi} = 2 I R B
 ```
 So, the net force on the whole system of three wire segments is:
 ```math
-\vec{F}_B = \int (\vec{I} dl + 2I R B + I \vec{l}) \vec{B}
+\vec{F}_B = \left[ \vec{I} dl + 2I R B + I \vec{l}) \vec{B} \right] \, \hat{j}
 ```
 
 ## Forces and Torques on Current-Carrying Loops
