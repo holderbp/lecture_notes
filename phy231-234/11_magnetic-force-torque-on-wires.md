@@ -13,7 +13,7 @@ where, recall, the vector product of two vectors $\vec{A}$ and $\vec{B}$ produce
 ![Understanding the vector product of A and B, to get the perpendicular vector C](images/11_vector-product-ABC.png)
 
 So we can say:
-```
+```math
 \vec{F}_B = \{ |\vec{F}_B| = |q\vec{v} B \sin \theta| \} \quad \text{Direction given by Right-Hand Rule}
 ```
 
