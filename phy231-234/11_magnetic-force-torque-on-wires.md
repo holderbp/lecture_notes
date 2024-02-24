@@ -126,7 +126,7 @@ we obtain a different result:
 
 Writing that final expression in terms of the area of the loop allows us to define the **magnetic dipole moment** of the current loop:
 ```math
-\vec{\mu} = I A
+\mu = I A
 ```
 
 ![Identifying the magnetic dipole moment with respect to a small current-carrying loop of wire](images/11_magnetic-moment.png)
