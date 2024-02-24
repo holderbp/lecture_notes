@@ -70,14 +70,72 @@ So, the net force on the whole system of three wire segments is:
 
 ## Forces and Torques on Current-Carrying Loops
 
-We will consider magnetic forces on rectangular loops of current, because they are easy, but much the same would be true for circles (continuing as we did above). We can easily see that the force on a rectangular loop of current in a uniform magnetic field is zero.
+We will consider magnetic forces on rectangular loops of current, because they are easy, but much the same would be true for circles (continuing as we did above). We can easily see that the force on a rectangular loop of current in a uniform magnetic field is zero:
 
 ![A square current-carrying loop of wire in a uniform magnetic field directed into the page](images/11_square-loop.png)
 
-Since you use the RHR to find the force on each side, and then graphically sum the vectors.
+(Use the RHR to find the force vector on each side, and then graphically sum the vectors.)
 
-### Review of Torque 
+### Review of Torque
 
+Recall the definition of torque on an object rotating about an axis (consider $z$ the axis of rotation, and $x$-$y$ the plane of rotation):
+
+![Finding the torque of the boy on the see-saw, about the axis shown](images/11_torque-seesaw.png)
+
+```math
+\begin{align}
+\vec{\tau} & = \vec{r} \times \vec{F} \\
+\rightarrow \quad |\vec{\tau}| & = |\vec{r}||\vec{F}|\sin \theta_{rF} \\
+& = F r_{\perp} \\
+& = F r \sin \theta
+\end{align}
+```
+Note that in the figure above, the magnitude of the torque of the child's weight is  $\tau = \ell m g$, where we use the second expression for $| \vec{\tau}$, where $\ell = r_\text{$\perp$ to $F$}$.
+
+### Torque on current loop
+
+So, we could find the torque on a current loop:
+
+![Forces on a current-carrying square loop of wire](images/11_torque-rectangular-wire.png)
+
+```math
+\begin{align}
+\vec{\tau}_{net} &= \vec{\tau}_{F1} + \vec{\tau}_{F2} + \vec{\tau}_{F3} + \vec{\tau}_{F4}\\
+& = 0 + \vec{\tau}_{F2} + 0 + \vec{\tau}_{F4}
+\end{align}
+```
+because we can see in the figure that $\vec{r}_1$ and $\vec{r}_3$ have $|\vec{r}| = 0$, and both $\vec{r}_2$ and $\vec{r}_4$ are parallel to their respective forces.
+
+However, if we place the loop at an angle with respect to the magnetic field (in the above figure, the normal vector to the loop area was in the same direction of $\vec{B}$):
+
+![Edge-on view of rectangular current-carrying loop in magnetic field, with normal vector not along B field direction](images/11_torque-rectangular-wire-angled.png)
+
+we obtain a different result:
+```math
+\begin{align}
+\vec{\tau}_{net} &= \vec{\tau}_{F1} + \vec{\tau}_{F2} + \vec{\tau}_{F3} + \vec{\tau}_{F4}\\
+= 0 + |\vec{\tau}_{F_2}| + 0  + | \vec{\tau}_{F_4}| \quad \text{zeros because $$|\vec{r}| = 0$}\\
+&= I w B \ell \sin \theta + I w B \ell \sin \theta \\
+& = 2 I w B \ell \sin \theta \\
+& = I \times 2 w \ell B \sin \theta\\
+& = I \times A B \sin \theta \\
+& = I A B \sin \theta
+\end{align}
+```
+
+### Magnetic dipole moment
+
+Writing that final expression in terms of the area of the loop allows us to define the **magnetic dipole moment** of the current loop:
+```math
+\vec{\mu} = I A
+```
+
+![Identifying the magnetic dipole moment with respect to a small current-carrying loop of wire](images/11_magnetic-moment.png)
+
+Or, defining the dipole moment to be a *vector* pointing normal to the loop face, we have:
+```math
+\vec{\tau} = \vec{\mu} \times \vec{B}
+```
 
 
 
