@@ -38,12 +38,13 @@ Note: At this small scale, these effects are necessarily quantum. Moving/spinnin
 
 ![A horseshoe magnet can cause a magnetic material to have its own magnetic field](images/10_horseshoe-magnetization.png)
 
-A material is said to be magnetic if it has a net atomic dipole (due to, e.g., unpaired valence electrons) that can align with an external magnetic field.
+A material is said to be **magnetic** if it has a net atomic dipole (due to, e.g., unpaired valence electrons) that can align with an external magnetic field.
 
 ![Ferromagnetic materials have "domains" of aligned magnets](images/10_magnetic-domains.png)
 
-So-called "Permanent Magnets" are made from ferromagnetic materials. These have large atomic dipoles and the ability to form large domains of aligned dipoles in the presence of an external magnetic field. These domains remain when the external field is removed.
-
-If a ferromagnetic material is heated above a critical temperature (the Curie temperature) it loses the ability to form domains (and thus lasting magnetism). These materials are called paramagnetic.
+So-called "Permanent Magnets" are made from **ferromagnetic8* materials. These have large atomic dipoles and the ability to form large domains of aligned dipoles in the presence of an external magnetic field. These domains remain when the external field is removed.
 
 ![Iron and its unpaired electrons make it an archtypal ferromagnetic material](images/10_iron-unpaired-electrons.png)
+
+If a ferromagnetic material is heated above a critical temperature (the Curie temperature) it loses the ability to form domains (and thus lasting magnetism). These materials are called **paramagnetic**.
+
