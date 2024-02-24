@@ -115,7 +115,7 @@ we obtain a different result:
 ```math
 \begin{align}
 \vec{\tau}_\text{net} &= \vec{\tau}_{F1} + \vec{\tau}_{F2} + \vec{\tau}_{F3} + \vec{\tau}_{F4} \\
-|\tau_\text{net}| &= 0 + |\vec{\tau}_{F_2}| + 0  + | \vec{\tau}_{F_4}| \quad \quad  \text{(zeros because $|\vec{r}| = 0$)}\\
+|\vec{\tau}_\text{net}| &= 0 + |\vec{\tau}_{F_2}| + 0  + | \vec{\tau}_{F_4}| \quad \quad  \text{(zeros because $|\vec{r}| = 0$)}\\
 &= I w B \frac{ell}{2} \sin \theta + I w B \frac{\ell}{2} \sin \theta \\
 & = I B w \ell \sin \theta \\
 & = I B A \sin \theta
@@ -126,7 +126,7 @@ we obtain a different result:
 
 Writing that final expression in terms of the area of the loop allows us to define the **magnetic dipole moment** of the current loop:
 ```math
-\mu = I A \quad \quad \rightarrow \quad \tau_\text{net} = \mu B \sin \theta
+\mu = I A \quad \quad \rightarrow \quad |\vec{\tau}_\text{net}| = \mu B \sin \theta
 ```
 
 ![Identifying the magnetic dipole moment with respect to a small current-carrying loop of wire](images/11_magnetic-moment.png)
