@@ -83,6 +83,8 @@ Based on the field lines drawn, you can sketch the "bar magnet that sits inside 
 
 A current-carrying wire in a magnetic field will experience a force in a direction perpendicular to both the wire and the field lines, a charged particle moving in a magnetic field will experience a force perpendicular to its velocity and the field.
 
+### Force on a moving charge
+
 The **force on a moving charge** is proportional to the charge, the field strength and the particle speed. Therefore:
 ```math
 \vec{F}_B = q\vec{v} \times \vec{B}
@@ -100,3 +102,26 @@ and the direction of the force is given by the **right hand rule**:
 ![How to use the right-hand rule to determine the force on a moving charge in a magnetic field, B.](images/10_right-hand-rule-B-force.png)
 
 Note from the basic equation for $\vec{F}_B$, however, that a negative charge, $q<0$, will experience a force in the opposite direction to what is found in the picture.
+
+### The Force on a Straight Segment of Current-Carrying Wire
+
+The ***force on a straight segment of current-carrying wire*** is:
+```math
+\vec{F}_B = I \vec{l} \times \vec{B}
+```
+where $I > 0$ is the current and $\vec{\ell}$ is a vector pointing in the direction of the current, with magnitude equal to the length of the wire. Using the rules for the cross product, this means
+```math
+|\vec{F}_B| = I \ell B \sin\theta_{\ellB}
+```
+and the direction is found by the right-hand rule:
+
+![Finding the direction of the force on a current-carrying wire due to a magnetic field](images/10_B-force-on-current-wire.png)
+
+### Drawing vectors in a third direction
+
+Because we now have vectors in 3 directions, we will need a way to represent fields pointing into and out of the page. (Imagine an arrow (of a bow and arrow) coming toward you, or away from you)
+
+![Drawing vectors pointing in or out of the page, using a "rocket"/"arrow" (circles coming toward you, crosses going away from you)](images/10_vectors-in-and-out-of-page.png)
+
+
+
