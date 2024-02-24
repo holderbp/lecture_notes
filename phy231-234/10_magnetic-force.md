@@ -151,7 +151,7 @@ To find the magnitude, we apply Newton's second law:
 \vec{F}_E + \vec{F}_B &= m\vec{a}\\
 \vec{F}_E + \vec{F}_B &= 0 \quad (\text{equilibrium})\\
 \text{$y$:  } F_{Ey} + F_{By} &= 0 \\
-+F_E - F_B = 0 
++F_E - F_B = 0 \\
 & \rightarrow F_E = F_B
 \end{align}
 ```
