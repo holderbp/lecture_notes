@@ -114,8 +114,8 @@ However, if we place the loop at an angle with respect to the magnetic field (in
 we obtain a different result:
 ```math
 \begin{align}
-\vec{\tau}_\text{net} &= \vec{\tau}_{F1} + \vec{\tau}_{F2} + \vec{\tau}_{F3} + \vec{\tau}_{F4}\\
-|\tau_\text{net}| = 0 + |\vec{\tau}_{F_2}| + 0  + | \vec{\tau}_{F_4}| \quad \quad  \text{(zeros because $|\vec{r}| = 0$)}\\
+\vec{\tau}_\text{net} &= \vec{\tau}_{F1} + \vec{\tau}_{F2} + \vec{\tau}_{F3} + \vec{\tau}_{F4} \\
+|\tau_\text{net}| &= 0 + |\vec{\tau}_{F_2}| + 0  + | \vec{\tau}_{F_4}| \quad \quad  \text{(zeros because $|\vec{r}| = 0$)}\\
 &= I w B \frac{ell}{2} \sin \theta + I w B \frac{\ell}{2} \sin \theta \\
 & = I B w \ell \sin \theta \\
 & = I B A \sin \theta
