@@ -146,21 +146,18 @@ Using the right-hand rule (and remembering that $q < 0$) we see that $\vec{B}$ m
 ![Free body diagram for electron in both a magnetic and electric field](images/10_velocity-selector-FBD.png)
 
 To find the magnitude, we apply Newton's second law:
-\[
-\vec{F}_e + \vec{F}_B = m\vec{a}
-\]
-\[
-\vec{F}_e + \vec{F}_B = 0 \quad (\text{equilibrium})
-\]
-For \( y \):
-\( F_{ey} + F_{By} = 0 \)
-\( +F_e - F_B = 0 \)
-\[
-\Rightarrow F_e = F_B
-\]
-And since \( \vec{v} \) is so \( \theta_{vB}=90^\circ \):
-\[
-|E| = |v||B|\sin{90^\circ} \Rightarrow B = \frac{E}{v}
-\]
+```math
+\begin{align}
+\vec{F}_E + \vec{F}_B &= m\vec{a}\\
+\vec{F}_E + \vec{F}_B &= 0 \quad (\text{equilibrium})\\
+\text{$y$:  } F_{Ey} + F_{By} &= 0 \\
++F_E - F_B = 0 
+& \rightarrow F_E = F_B
+\end{align}
+```
+And since $\vec{v}$ is perpendicular to $\vec{B}$ $\left(\theta_{vB}=90^\circ \right)$:
+```math
+|q| E = |q| v B \sin{90^\circ} \quad \rightarrow \quad B = \frac{E}{v}
+```
 
 
