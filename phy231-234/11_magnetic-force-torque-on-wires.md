@@ -49,6 +49,8 @@ It is useful to look at the situation quantitatively first (as we did for electr
 1. We see that $\Delta \vec{r} \perp \vec{B}$, and the R.H.R. shows that $\vec{F}$ on any chunk is radially directed,
 2. Therefore the $x$-components of the forces will cancel and we need only calculate $F_y$.
 
+![Setting up the precise specification of a chunk on the semi-circular wire](images/11_semicircle-chunk-specification.png)
+
 So, we write down our sum using the $n^{th}$ chunk:
 ```math
 \begin{align}
