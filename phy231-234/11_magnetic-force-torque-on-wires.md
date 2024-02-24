@@ -116,11 +116,9 @@ we obtain a different result:
 \begin{align}
 \vec{\tau}_{net} &= \vec{\tau}_{F1} + \vec{\tau}_{F2} + \vec{\tau}_{F3} + \vec{\tau}_{F4}\\
 & = 0 + |\vec{\tau}_{F_2}| + 0  + | \vec{\tau}_{F_4}| \quad \quad  \text{(zeros because $|\vec{r}| = 0$)}\\
-&= I w B \ell \sin \theta + I w B \ell \sin \theta \\
-& = 2 I w B \ell \sin \theta \\
-& = I \times 2 w \ell B \sin \theta\\
-& = I \times A B \sin \theta \\
-& = I A B \sin \theta
+&= I w B \frac{ell}{2} \sin \theta + I w B \frac{\ell}{2} \sin \theta \\
+& = I B w \ell \sin \theta \\
+& = I B A \sin \theta
 \end{align}
 ```
 
