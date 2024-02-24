@@ -111,7 +111,7 @@ The ***force on a straight segment of current-carrying wire*** is:
 ```
 where $I > 0$ is the current and $\vec{\ell}$ is a vector pointing in the direction of the current, with magnitude equal to the length of the wire. Using the rules for the cross product, this means
 ```math
-|\vec{F}_B| = I \ell B \sin\theta_{\ellB}
+|\vec{F}_B| = I \ell B \sin\theta_{\ell B}
 ```
 and the direction is found by the right-hand rule:
 
