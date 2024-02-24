@@ -91,7 +91,7 @@ Recall the definition of torque on an object rotating about an axis (consider $z
 \end{align}
 ```
 
-Note that in the figure above, the magnitude of the torque of the child's weight is  $\tau = \ell m g$, where we have used the second expression for $|\vec{\tau}$, where $\ell = r_\text{perp to F}$.
+Note that in the figure above, the magnitude of the torque of the child's weight is  $\tau = \ell m g$, where we have used the second expression for $|\vec{\tau}|$, where $\ell = r_\text{perp to F}$.
 
 ### Torque on current loop
 
@@ -102,7 +102,7 @@ So, we could find the torque on a current loop:
 ```math
 \begin{align}
 \vec{\tau}_{net} &= \vec{\tau}_{F1} + \vec{\tau}_{F2} + \vec{\tau}_{F3} + \vec{\tau}_{F4}\\
-& = 0 + \vec{\tau}_{F2} + 0 + \vec{\tau}_{F4}
+& = 0 + 0 + 0 + 0
 \end{align}
 ```
 because we can see in the figure that $\vec{r}_1$ and $\vec{r}_3$ have $|\vec{r}| = 0$, and both $\vec{r}_2$ and $\vec{r}_4$ are parallel to their respective forces.
