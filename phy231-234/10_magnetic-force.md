@@ -67,7 +67,7 @@ We can probe the space around a magnet with a compass to determine the magnetic 
 
 ### Magnetic field of the Earth
 
-Compasses can also be used to probe the magnetic field of the Earth. In our classroom in Allendale, MI, compasses restricted to the horizontal and vertical planes shown:
+Compasses can also be used to probe the **magnetic field of the Earth**. In our classroom in Allendale, MI, compasses restricted to the horizontal and vertical planes shown:
 
 ![We can identify the magnetic field vector at our point on Earth (Allendale, MI), using a horizontal and a vertical compass](images/10_magnetic-field-earth-in-classroom.png)
 
@@ -79,6 +79,24 @@ If we put this on a globe and assume some symmetry...
 
 Based on the field lines drawn, you can sketch the "bar magnet that sits inside the Earth" to create this field (do it!). The field actually flips its polarity every 100,000 years or so, and we don’t actually know exactly what creates the field or its dynamics.
 
+## Magnetic Force on a Moving Charge or Current
 
+A current-carrying wire in a magnetic field will experience a force in a direction perpendicular to both the wire and the field lines, a charged particle moving in a magnetic field will experience a force perpendicular to its velocity and the field.
 
+The **force on a moving charge** is proportional to the charge, the field strength and the particle speed. Therefore:
+```math
+\vec{F}_B = q\vec{v} \times \vec{B}
+```
+where this **cross product** of vectors means that the magnitude is:
+```math
+|\vec{F}_B| = |q||\vec{v}||\vec{B}|\sin\theta_{vB}
+```
+and the direction of the force is given by the **right hand rule**:
 
+1. Point the fingers of your right hand along the first vector $\vec{v}$.
+2. Close your fingers in the direction of the second vector $\vec{B}$.
+3. The resulting vector $\vec{F}_B$ points in the direction of your thumb.
+
+![How to use the right-hand rule to determine the force on a moving charge in a magnetic field, B.](images/10_right-hand-rule-B-force.png)
+
+Note from the basic equation for $\vec{F}_B$, however, that a negative charge, $q<0$, will experience a force in the opposite direction to what is found in the picture.
