@@ -123,5 +123,44 @@ Because we now have vectors in 3 directions, we will need a way to represent fie
 
 ![Drawing vectors pointing in or out of the page, using a "rocket"/"arrow" (circles coming toward you, crosses going away from you)](images/10_vectors-in-and-out-of-page.png)
 
+## Example: The "velocity selector"
+
+### Question: Parallel plates are connected to a battery creating a uniform $\vec{E}$ field of magnitude $E$. What is the direction and magnitude of the magnetic field which would allow an electron to pass through the plates (undeflected) with speed $v$?
+
+### Solution
+
+![Schematic of a velocity selector: a charged particle heads toward a uniform electric field (magnetic field is not yet shown).](images/10_velocity-selector-E-field.png)
+
+The electric field will cause a force on the electron
+```math
+\vec{F}_e = q\vec{E} = -e\vec{E}
+```
+pointing opposite to the field.
+
+![Schematic of a velocity selector: a charged particle is also within a magnetic field](10_velocity-selector-B-field.png)
+
+To balance $\vec{F}_E$ there must be a downward-pointing force, $\vec{F}_B$, of equal magnitude.
+
+Using the right-hand rule (and remembering that $q < 0$) we see that $\vec{B}$ must point out of the page.
+
+![Free body diagram for electron in both a magnetic and electric field](images/10_velocity-selector-FBD.png)
+
+To find the magnitude, we apply Newton's second law:
+\[
+\vec{F}_e + \vec{F}_B = m\vec{a}
+\]
+\[
+\vec{F}_e + \vec{F}_B = 0 \quad (\text{equilibrium})
+\]
+For \( y \):
+\( F_{ey} + F_{By} = 0 \)
+\( +F_e - F_B = 0 \)
+\[
+\Rightarrow F_e = F_B
+\]
+And since \( \vec{v} \) is so \( \theta_{vB}=90^\circ \):
+\[
+|E| = |v||B|\sin{90^\circ} \Rightarrow B = \frac{E}{v}
+\]
 
 
