@@ -37,11 +37,11 @@ The magnetic field at $\vec{r}$ with respect to a moving charge $q$ is:
 ```math
 \vec{B}_q(\vec{r}) = \frac{\mu_0}{4\pi} \frac{q\vec{v} \times \vec{r}}{r^3}
 ```
-From what we know about the vector product $|\vec{A} \times \vec{B}| = AB \sin(\theta)$, we can immediately write down the *magnitude* of the field produced:
+From what we know about the vector product, $|\vec{A} \times \vec{B}| = AB \sin(\theta)$, we can immediately write down the *magnitude* of the field produced:
 ```math
-|\vec{B}_q(\vec{r})| = \frac{\mu_0}{4\pi} \frac{|q||\vec{v} \times \vec{r}|}{r^3} = \frac{\mu_0}{4\pi} \frac{|q|v}{r^2} \sin(\theta)
+|\vec{B}_q(\vec{r})| = \frac{\mu_0}{4\pi} \frac{|q||\vec{v} \times \vec{r}|}{r^3} = \frac{\mu_0}{4\pi} \frac{|q|v}{r^2} \sin\theta_{rv}
 ```
-And the *direction* of $\vec{B}$ is found using the right-hand rule (fingers along $\vec{v}$, close them toward $\vec{r}$, thumb points along $\vec{B}$). Or, given the components of each vector, you can use:
+where $\theta_{rv}$ is the angle between $\vec{r}$ and $\vec{v}$. The *direction* of $\vec{B}$ is found using the right-hand rule (fingers along $\vec{v}$, close them toward $\vec{r}$, thumb points along $\vec{B}$). Or, given the components of each vector, you can use:
 ```math
 \vec{u} \times \vec{v} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\ u_x & u_y & u_z \\ v_x & v_y & v_z \end{vmatrix} = \hat{i}(u_yv_z-u_zv_y) - \hat{j}(u_xv_z-u_zv_x) + \hat{k}(u_xv_y-u_yv_x)
 ```
