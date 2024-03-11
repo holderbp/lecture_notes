@@ -127,6 +127,10 @@ B_{Pz} & \approx \sum_{n=1}^N - | \Delta \vec{B}_n |\\
 &= - \frac{\mu_0 I}{4\pi d} \frac{2}{\sqrt{\left(2d/L\right)^2 + 1}}
 \end{align}
 ```
+And if we have $d\ll L$ then this result reduces to:
+```math
+B_\text{long wire} = \frac{\mu_0 I}{2 \pi d}
+```
 
 
 
