@@ -37,7 +37,7 @@ The magnetic field at $\vec{r}$ with respect to a moving charge $q$ is:
 ```math
 \vec{B}_q(\vec{r}) = \frac{\mu_0}{4\pi} \frac{q\vec{v} \times \vec{r}}{r^3}
 ```
-From what we know about the vector product ($|\vec{A} \times \vec{B}| = AB \sin(\theta)$), we can immediately write down the *magnitude* of the field produced:
+From what we know about the vector product $|\vec{A} \times \vec{B}| = AB \sin(\theta)$, we can immediately write down the *magnitude* of the field produced:
 ```math
 |\vec{B}_q(\vec{r})| = \frac{\mu_0}{4\pi} \frac{|q||\vec{v} \times \vec{r}|}{r^3} = \frac{\mu_0}{4\pi} \frac{|q|v}{r^2} \sin(\theta)
 ```
