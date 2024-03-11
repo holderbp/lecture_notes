@@ -102,7 +102,7 @@ Of course in this process we will take a limit to get an integral.
 
 4. We see in the figure above that, for any chunk $\Delta \vec{r}_n$, the vector product
 ```math
-\Delta \vec{r_n} \times \vec{i_n}
+\Delta \vec{r_n} \times \vec{r_n}
 ```
 will point *into* the page (or, out of the page if we had chosen a point below).
 
@@ -118,7 +118,7 @@ B_{Pz} & \approx \sum_{n=1}^N - | \Delta \vec{B}_n |\\
 & \approx \sum_{n=1}^N -\frac{\mu_0}{4 \pi} \frac{I \Delta r_n \, r_n}{r_n^3} \sin \theta_{\Delta r, r_n}\\
 & \approx \sum_{n=1}^N -\frac{\mu_0}{4 \pi} \frac{I}{r_n^2}  \sin \theta_{\Delta r, r_n} \Delta x\\
 & \approx \sum_{n=1}^N -\frac{\mu_0}{4 \pi} \frac{I}{r_n^2} \frac{d}{r_n} \Delta x\\
-& \approx \sum_{n=1}^N - \frac{\mu_0 I d}{4\pi} \left[d^2 + x_n^2\right]^{3/2} \Delta x\\
+& \approx \sum_{n=1}^N - \frac{\mu_0 I d}{4\pi} \left[d^2 + x_n^2\right]^{-3/2} \Delta x\\
 & = - \frac{\mu_0 I d}{4\pi} \int_{-L/2}^{L/2} \frac{1}{(d^2 + x^2)^{3/2}} dx\\
 & = - \frac{\mu_0 I d}{4\pi} \left[ \frac{x}{d^2 \sqrt{d^2 + x^2}} \right]_{-L/2}^{L/2}\\
 & = - \frac{\mu_0 I d}{4\pi} \left[ \frac{L/2}{d^2 \sqrt{d^2 + (L/2)^2}} + \frac{L/2}{d^2 \sqrt{d^2 + (L/2)^2}} \right]\\
