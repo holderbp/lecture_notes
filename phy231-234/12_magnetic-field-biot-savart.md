@@ -123,7 +123,7 @@ B_{Pz} & \approx \sum_{n=1}^N - | \Delta \vec{B}_n |\\
 & = - \frac{\mu_0 I d}{4\pi} \left[ \frac{x}{d^2 \sqrt{d^2 + x^2}} \right]_{-L/2}^{L/2}\\
 & = - \frac{\mu_0 I d}{4\pi} \left[ \frac{L/2}{d^2 \sqrt{d^2 + (L/2)^2}} + \frac{L/2}{d^2 \sqrt{d^2 + (L/2)^2}} \right]\\
 & = - \frac{\mu_0 I d}{4\pi d^2} \frac{L}{\sqrt{d^2 + L^2/4}}\\
-& = - \frac{\mu_0 I}{4\pi d^2} \frac{L}{L \sqrt{\left(2d/L\right)^2 + 1}}\\
+& = - \frac{\mu_0 I}{4\pi d^2} \frac{L/2}{L \sqrt{\left(2d/L\right)^2 + 1}}\\
 &= - \frac{\mu_0 I}{4\pi d} \frac{2}{\sqrt{\left(2d/L\right)^2 + 1}}
 \end{align}
 ```
