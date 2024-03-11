@@ -93,6 +93,7 @@ where $\Delta \vec{B}$ here means "the (small) *contribution* to $\vec{B}$ at th
 \vec{B}_P = \sum_{n=1}^{N} \Delta \vec{B}_n
 ```
 Of course in this process we will take a limit to get an integral.
+
 3. As we've done before, it is useful to consider the situation qualitatively first. Answer these questions:
     * Which way does $\Delta \vec{B}$ point for some chunk? 
     * Which way does the sum point: $\sum \Delta \vec{B}$?
