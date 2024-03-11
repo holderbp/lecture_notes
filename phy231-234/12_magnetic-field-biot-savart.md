@@ -90,12 +90,42 @@ where $\Delta \vec{B}$ here means "the (small) *contribution* to $\vec{B}$ at th
 1. We wish to find the $\vec{B}$ field at a point $P$, located a distance $d$ from the wire.
 2. Our method will be to break the wire into chunks, $\Delta r_n$, find the contribution due to each chunk, $\Delta \vec{B}_n$, and then sum the contributions to find:
 ```math
-\mathbf{B}_P = \sum_{n=1}^{N} \Delta \mathbf{B}_n
+\vec{B}_P = \sum_{n=1}^{N} \Delta \vec{B}_n
 ```
 Of course in this process we will take a limit to get an integral.
 3. As we've done before, it is useful to consider the situation qualitatively first. Answer these questions:
     * Which way does $\Delta \vec{B}$ point for some chunk? 
     * Which way does the sum point: $\sum \Delta \vec{B}$?
+
+![Finding the B field of a long straight wire](images/12_long-straight-wire-B-I.png)
+
+4. We see in the figure above that, for any chunk $\Delta \vec{r}_n$, the vector product
+```math
+\Delta \vec{r_n} \times \vec{i_n}
+```
+will point *into* the page (or, out of the page if we had chosen a point below).
+
+
+5. So, each $\Delta \vec{B}_n$ will point into the page, and we can just calculate $B_z$, since $B_x = B_y = 0$. Let's use a coordinate system with origin below the point:
+
+![Chunking up wire and choosing a convenient coordinate for constructing an integral](images/12_long-straight-wire-B-II.png)
+
+6. We then construct the integral to find the component $B_z$:
+```math
+\begin{align}
+B_{Pz} & \approx \sum_{n=1}^N - | \Delta \vec{B}_n |\\
+& \approx \sum_{n=1}^N -\frac{\mu_0}{4 \pi} \frac{I \Delta r_n \, r_n}{r_n^3} \sin \theta_{\Delta r, r_n}\\
+& \approx \sum_{n=1}^N -\frac{\mu_0}{4 \pi} \frac{I}{r_n^2}  \sin \theta_{\Delta r, r_n} \Delta x\\
+& \approx \sum_{n=1}^N -\frac{\mu_0}{4 \pi} \frac{I}{r_n^2} \frac{d}{r_n} \Delta x\\
+& \approx \sum_{n=1}^N - \frac{\mu_0 I d}{4\pi} \left[d^2 + x_n^2\right]^{3/2} \Delta x\\
+& = - \frac{\mu_0 I d}{4\pi} \int_{-L/2}^{L/2} \frac{1}{(d^2 + x^2)^{3/2}} dx\\
+& = - \frac{\mu_0 I d}{4\pi} \left[ \frac{x}{d^2 \sqrt{d^2 + x^2}} \right]_{-L/2}^{L/2}\\
+& = - \frac{\mu_0 I d}{4\pi} \left[ \frac{L/2}{d^2 \sqrt{d^2 + (L/2)^2}} + \frac{L/2}{d^2 \sqrt{d^2 + (L/2)^2}} \right]\\
+& = - \frac{\mu_0 I d}{4\pi d^2} \frac{L}{\sqrt{d^2 + L^2/4}}\\
+& = - \frac{\mu_0 I}{4\pi d^2} \frac{L}{L \sqrt{\left(2d/L\right)^2 + 1}}\\
+&= - \frac{\mu_0 I}{4\pi d} \frac{2}{\sqrt{\left(2d/L\right)^2 + 1}}
+\end{align}
+```
 
 
 
