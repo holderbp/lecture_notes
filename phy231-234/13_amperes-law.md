@@ -34,7 +34,7 @@ So, let us now convert Ampere's law. This time we will make use of a different t
 ```math
 \Phi_{\vec{\nabla} \times \vec{F}} = \int_{S} (\nabla \times \vec{F}) \cdot \hat{n} \, dA = \oint_{C=\partial S} \vec{F} \cdot d\vec{r} = \oint_{C} \vec{F} \cdot \vec{v} \, dt \quad \quad \text{Stoke's Theorem}
 ```
-where we write $\vec{v}$ as $\frac{\mathrm{d}\vec{r}}{\mathrm{d}t}$.
+where, recall that the "velocity" in the line integral is the time derivative of the position specifying the parameterized path, $\vec{r}(t)$, i.e., $\vec{v} = \frac{\mathrm{d}\vec{r}}{\mathrm{d}t}$.
 
 So, we rewrite the differential form of Ampere's Law:
 ```math
