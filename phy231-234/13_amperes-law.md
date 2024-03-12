@@ -5,9 +5,9 @@
 
 As mentioned last lecture, we return to Maxwell's Equations to find a piece that describes the magnetic field created by currents. The full equation, and the piece we consider today is:
 ```math
-\nabla \times \vec{B} = \mu_0 \frac{\partial \vec{E}}{\partial t} + \mu_0 \vec{J}
+\nabla \times \vec{B} = \mu_0 \frac{\partial \vec{E}}{\partial t} + \mu_0 \vec{J} \quad \rightarrow \quad \nabla \times \vec{B} = \mu_0 \vec{J} 
 ```
-So, we are ignoring changing electric fields for the moment and considering only how magnetic fields relate to current density, $\vec{J}$.
+So, we are ignoring changing electric fields ($\partial \vec{E} / \partial t = 0$) for the moment and considering only how magnetic fields relate to current density, $\vec{J}$.
 
 We will now convert this equation from the entirely foreign mathematical language of partial derivative operators ($\nabla \times \vec{B}$ is called the "curl" of the vector field $\vec{B}$), into the slightly more familiar language of line integrals. We do this in almost the same way we dealt with Gauss's Law in the third lecture, i.e., by thinking an integral. Recall that we did this:
 
