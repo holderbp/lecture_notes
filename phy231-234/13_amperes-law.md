@@ -51,7 +51,7 @@ This equation will play the role that Gauss's Law did for electric fields: it wi
 
 ### Example: Long, straight, current-carrying wire.
 
-Just as we did for Gauss's Law, we will need to apply symmetry arguments to understand the basic picture of the magnetic field $\vec{B}$ and to compute exactly because problems with Ampere's Law. For a long, straight, current-carrying wire, we know that the rotational symmetry of the wire about an axis along it means that $\vec{B}$ has the same magnitude at all points on an enclosing circle.
+Just as we did for Gauss's Law, we will need to apply symmetry arguments to understand the basic picture of the magnetic field $\vec{B}$ and to construct easily calculable problems with Ampere's Law. For a long, straight, current-carrying wire, we know that the rotational symmetry of the wire about an axis along it means that $\vec{B}$ has the same magnitude at all points on an enclosing circle.
 
 ![Figure demonstrating rotational symmetry of long straight wire](images/13_symmetry-long-straight-wire.png)
 
