@@ -32,7 +32,7 @@ But, there is a big difference... For the magnetic field, no field lines *origin
 
 So, let us now convert Ampere's law. This time we will make use of a different theorem, called Stoke's theorem, which says that the flux of the curl of a vector field, $\vec{F}(t)$, through some 2D surface, $S$, is equal to the line integral around the closed loop of its boundary, i.e., $\partial S = \delta S$. In equations:
 ```math
-\Phi_{\vec{F}} = \iint_{S} (\nabla \times \vec{F}) \cdot \mathrm{d}\vec{A} = \oint_{C=\partial S} \vec{F} \cdot \mathrm{d}\vec{r} = \oint_{C} \vec{F} \cdot \vec{v} \mathrm{d}t
+\Phi_{\vec{\nabla} \times \vec{F}} = \iint_{S} (\nabla \times \vec{F}) \cdot \mathrm{d}\vec{A} = \oint_{C=\partial S} \vec{F} \cdot \mathrm{d}\vec{r} = \oint_{C} \vec{F} \cdot \vec{v} \mathrm{d}t \quad \quad \text{Stoke's Theorem}
 ```
 where we write $\vec{v}$ as $\frac{\mathrm{d}\vec{r}}{\mathrm{d}t}$.
 
