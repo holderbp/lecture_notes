@@ -39,7 +39,7 @@ where, recall that the "velocity" in the line integral is the time derivative of
 So, we rewrite the differential form of Ampere's Law:
 ```math
 \begin{align}
-\nabla \times \vec{B} &= \mu_0 \vec{J}
+\nabla \times \vec{B} &= \mu_0 \vec{J}\\
 \int_{S} (\nabla \times \vec{B}) \cdot \hat{n} \, dA & = \int_{S} \left(\mu_0 \vec{J}\right) \cdot \hat{n} \, dA \\
 \oint_{C=\partial S} \vec{B} \cdot \mathrm{d}\vec{r} & = \mu_0 \iint_{S} \vec{J} \cdot \hat{n} \, dA\\
 \oint_{C=\partial S} \vec{B} \cdot \mathrm{d}\vec{r} & = \mu_0 \, I_\text{through $S$}
