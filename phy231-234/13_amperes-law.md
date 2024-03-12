@@ -28,3 +28,6 @@ This law, "Gauss's Law for Magnetic Fields," tells us that the flux of the magne
 
 ![Comparing Gauss law for electric vs magnetic fields](images/13_positive-vs-zero-flux.png)
 
+But, there is a big difference... For the magnetic field, no field lines *originate* within the "gaussian surface" $S$.  **There are no magnetic monopoles** (no "magnetic charge").
+
+
