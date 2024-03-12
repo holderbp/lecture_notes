@@ -41,10 +41,12 @@ So, we rewrite the differential form of Ampere's Law:
 \begin{align}
 \nabla \times \vec{B} &= \mu_0 \vec{J}\\
 \int_{S} (\nabla \times \vec{B}) \cdot \hat{n} \, dA & = \int_{S} \left(\mu_0 \vec{J}\right) \cdot \hat{n} \, dA \\
-\oint_{C=\partial S} \vec{B} \cdot \mathrm{d}\vec{r} & = \mu_0 \iint_{S} \vec{J} \cdot \hat{n} \, dA\\
+\oint_{C=\partial S} \vec{B} \cdot \mathrm{d}\vec{r} & = \mu_0 \int_{S} \vec{J} \cdot \hat{n} \, dA\\
 \oint_{C=\partial S} \vec{B} \cdot \mathrm{d}\vec{r} & = \mu_0 \, I_\text{through $S$}
 \end{align}
 ```
+where we've used Stoke's Theorem in going from line two to line three, and we've used the definition of the current (in terms of the current density) in obtaining the last line.
+
 This equation will play the role that Gauss's Law did for electric fields: it will connect the magnetic field in space to its source, current flow. Similar to Gauss's Law, the equation is always true, but only yields a useful and easy calculation for systems with a lot of symmetry.
 
 ### Example: Long, straight, current-carrying wire.
