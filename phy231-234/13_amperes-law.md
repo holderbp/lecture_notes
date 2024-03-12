@@ -51,11 +51,13 @@ This equation will play the role that Gauss's Law did for electric fields: it wi
 
 ### Example: Long, straight, current-carrying wire.
 
-Just as we did for Gauss's Law, we will need to apply symmetry arguments to understand the basic picture of the magnetic field $\vec{B}$ and to construct easily calculable problems with Ampere's Law. For a long, straight, current-carrying wire, we know that the rotational symmetry of the wire about an axis along it means that $\vec{B}$ has the same magnitude at all points on an enclosing circle.
+Just as we did for Gauss's Law, we will need to apply symmetry arguments to understand the basic picture of the magnetic field $\vec{B}$ and to construct easily calculable problems with Ampere's Law. 
+
+For a long, straight, current-carrying wire, we know that the rotational symmetry of the wire about an axis along it means that $\vec{B}$ has the same magnitude at all points on an enclosing circle.
 
 ![Figure demonstrating rotational symmetry of long straight wire](images/13_symmetry-long-straight-wire.png)
 
-Because the wire and its current are unchanged under rotation, and because the magnetic field they produce must have the same symmetry, it must be true that:
+*Symmetry argument*: Because the wire and its current are unchanged under rotation, and because the magnetic field they produce must have the same symmetry, it must be true that:
 ```math
 | \vec{B} \left(\vec{r}_1\right)| = | \vec{B} \left(\vec{r}_2\right)| = | \vec{B} \left(r \right)|
 ```
@@ -65,5 +67,19 @@ It turns out that arguing for the *direction* of $\vec{B}$ on that circle is har
 
 (Note: Some details about it being "harder". It is related to $\vec{B}$ being a so-called "pseudovector", which acquires a minus sign (a flip into the opposite direction) for any reflectional transformation.)
 
+Now that we know the basic features of $\vec{B}(\vec{r})$ (direction and symmetry of magnitude), we can use Ampere's Law to determine its magnitude at any point in space. Just as Gauss's Law required us to choose a closed "Gaussian Surface", $S$, Ampere's Law requires us to choose a closed curve, $C$ (called an "Amperian loop"), and its spanning surface $S$. Any choice is allowed:
 
+![Two possible amperian loops near a current-carrying wire, but only the one on the right has "current through" it.](images/13_two-amperian-loops.png)
 
+But, just as with Gauss's Law, only some choices will be useful. The choice at left has no through $I$ (no current passes through $S$), so the line integral of $\vec{B}$ along $C$ will give us zero (like a Gaussian surface enclosing no charge gives us zero flux). The choice at right does have current passing through $S$, but we know (from our symmetry discussion above) that $\vec{B}$ is different at every point along $C$. So it will make the line integral difficult to calculate (though not impossible... see Figure 28.17a in Y&F).
+
+We choose, then, an "Amperian Loop" that takes advantage of the symmetry, i.e., an enclosing circle. We choose the direction of integration around $C$ to be  given by the right-hand rule with respect to the current (pointing thumb along $I$, $C$ curls with fingers). And thus we see that the $d\vec{r}$ vectors point with the $\vec{B}$ vectors at each point on the loop. The line integral becomes very simple then...
+```math
+\begin{align}
+\oint_{C = \partial S} \vec{B} \cdot d\vec{r} &= \mu_0 I_{through \; S}\\
+\oint_C B dr &= \mu_0 I \\
+B \oint_C dr &= \mu_0 I \\
+B (2 \pi d) &= \mu_0 I \\
+& \quad B(d) = \frac{\mu_0 I}{2 \pi d}
+\end{align}
+```
