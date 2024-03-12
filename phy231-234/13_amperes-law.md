@@ -80,6 +80,6 @@ We choose, then, an "Amperian Loop" that takes advantage of the symmetry, i.e., 
 \oint_C B dr &= \mu_0 \, I \\
 B \oint_C dr &= \mu_0 \, I \\
 B (2 \pi d) &= \mu_0 \, I \\
-& \quad B(d) = \frac{\mu_0 \, I}{2 \pi d}
+& \quad \rightarrow \quad B(d) = \frac{\mu_0 \, I}{2 \pi d}
 \end{align}
 ```
