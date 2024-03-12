@@ -78,7 +78,7 @@ But, just as with Gauss's Law, only some choices will be useful. The choice at l
 We choose, then, an "Amperian Loop" that takes advantage of the symmetry, i.e., an enclosing circle. We choose the direction of integration around $C$ to be  given by the right-hand rule with respect to the current (pointing thumb along $I$, $C$ curls with fingers). And thus we see that the $d\vec{r}$ vectors point with the $\vec{B}$ vectors at each point on the loop. The line integral becomes very simple then...
 ```math
 \begin{align}
-\oint_{C = \partial S} \vec{B} \cdot d\vec{r} &= \mu_0 \, I_{through \; S}\\
+\oint_{C = \partial S} \vec{B} \cdot d\vec{r} &= \mu_0 \, I_\text{through $S$}\\
 \oint_C B dr &= \mu_0 \, I \\
 B \oint_C dr &= \mu_0 \, I \\
 B (2 \pi d) &= \mu_0 \, I \\
