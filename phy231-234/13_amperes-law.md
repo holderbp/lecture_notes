@@ -17,9 +17,11 @@ We will now convert this equation from the entirely foreign mathematical languag
 \nabla \cdot \vec{E} = \frac{\rho}{\varepsilon_0} \quad \rightarrow \quad
 \oint_{S = \partial R} \vec{E} \cdot \hat{n} \,dA = \frac{Q_{\text{enc}}}{\varepsilon_0} 
 ```
-In words: we took a volume integral of both sides over some region of space $R$, on the right-hand side that gave us the sum of all charge in the region (or the "charge enclosed" by the boundary surface $S = \partial R$), and on the left-hand side we used a theorem to write the volume integral of the divergence as the flux of the electric field through the bounding surface $S$ (the so-called "Gaussian surface"). Before making a similar transformation of Ampere's Law, let's do exactly the same transformation of another one of Maxwell's Equations:
+In words: we took a volume integral of both sides over some region of space $R$, on the right-hand side that gave us the sum of all charge in the region (or the "charge enclosed" by the boundary surface $S = \partial R$), and on the left-hand side we used a theorem to write the volume integral of the divergence as the flux of the electric field through the bounding surface $S$ (the so-called "Gaussian surface"). 
+
+Before making a similar transformation of Ampere's Law, let's do exactly the same transformation of another one of Maxwell's Equations:
 ```math
-\nabla \cdot \vec{B} = 0 \quad \rightarrow \quad \oint \nabla \cdot \vec{B} \, dV = \oint 0 \, dV \quad \rightarrow \quad \oint_{S = \partial R} \vec{B} \cdot \hat{n} \, dA = 0
+\nabla \cdot \vec{B} = 0 \quad \rightarrow \quad \oint_R \nabla \cdot \vec{B} \, dV = \oint_R 0 \, dV \quad \rightarrow \quad \oint_{S = \partial R} \vec{B} \cdot \hat{n} \, dA = 0
 ```
 
 This law, "Gauss's Law for Magnetic Fields," tells us that the flux of the magnetic field through any closed surface is zero. We have seen this in all of our pictures of magnetic fields ... all field lines "close," similarly to the electric field lines of an electric dipole.
