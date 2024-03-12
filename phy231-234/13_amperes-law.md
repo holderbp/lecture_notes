@@ -71,7 +71,7 @@ Now that we know the basic features of $\vec{B}(\vec{r})$ (direction and symmetr
 
 ![Two possible amperian loops near a current-carrying wire, but only the one on the right has "current through" it.](images/13_two-amperian-loops.png)
 
-But, just as with Gauss's Law, only some choices will be useful. The choice at left has no through $I$ (no current passes through $S$), so the line integral of $\vec{B}$ along $C$ will give us zero (like a Gaussian surface enclosing no charge gives us zero flux). The choice at right does have current passing through $S$, but we know (from our symmetry discussion above) that $\vec{B}$ is different at every point along $C$. So it will make the line integral difficult to calculate (though not impossible... see Figure 28.17a in Y&F).
+But, just as with Gauss's Law, only some choices will be useful. The choice at left has no $I_\text{through $S$}$ (no current passes through the surface $S$), so the line integral of $\vec{B}$ along $C$ will give us zero (like a Gaussian surface enclosing no charge gives us zero flux). The choice at right does have current passing through $S$, but we know (from our symmetry discussion above) that $\vec{B}$ is different at every point along $C$. So it will make the line integral difficult to calculate (though not impossible... see Figure 28.17a in Y&F).
 
 We choose, then, an "Amperian Loop" that takes advantage of the symmetry, i.e., an enclosing circle. We choose the direction of integration around $C$ to be  given by the right-hand rule with respect to the current (pointing thumb along $I$, $C$ curls with fingers). And thus we see that the $d\vec{r}$ vectors point with the $\vec{B}$ vectors at each point on the loop. The line integral becomes very simple then...
 ```math
