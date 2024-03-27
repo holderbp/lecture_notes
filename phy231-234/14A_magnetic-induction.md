@@ -26,5 +26,23 @@ The flux can be thought of as proportional to the number of B-field lines that p
 
 ![Flux of magnetic field through a flat area, with the area vector at different angles to the field](images/14_flux-two.png)
 
+For a surface that is not flat, of a field that is not uniform, the flux is calculated over small area segments of the surface (which are approximately flat and have approximately uniform field passing through).
+
+![Finding the flux of a nonflat surface by zooming in to get flat chunks.](images/14_flux-nonflat.png)
+
+The total flux through the surface is found by adding up (using calculus) the flux through each little piece, $dA$.
+
+## Faraday's Law of Induction (Magnitude of induced EMF)
+
+The induced current flow we saw in the introductory experiments comes from an induced EMF (voltage) in the wire loop : $I_{\text{ind}} = \frac{\mathcal{E}_{\text{ind}}}{R_{\text{loop}}}$. Careful experiments by Michael Faraday (English, c1830) showed that this EMF is caused by changing magnetic flux.
+
+The *average induced EMF*, $\mathcal{E}_{\text{ind}}$, in a loop of wire over a time interval $\Delta t$ is:
+```math
+\mathcal{E}_{\text{ind}} = \frac{\Delta \Phi_{B}}{\Delta t} \quad \text{(Faraday's Law)}
+```
+If multiple loops of wire are used (e.g., a solenoid coil) then the induced EMF increases proportionally:
+```math
+\mathcal{E}_{\text{ind}} = N_{\text{loops}} \frac{\Delta \Phi_{B}}{\Delta t}
+```
 
 
