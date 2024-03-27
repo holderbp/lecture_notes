@@ -188,7 +188,7 @@ where, recall, we made the same definition in our analysis of RC circuits. So, t
 \frac{Q}{C} - L \frac{d}{dt}(-\frac{dQ}{dt}) = 0 \Rightarrow \frac{d^2Q}{dt^2} = -\frac{1}{LC} Q
 ```
 
-At some point the current should slow (starts at zero, finite change on the capacitor). With $\frac{d^2Q}{dt^2} < 0$, the direction of the induced EMF will change:
+At some point the current should slow (starts at zero, finite change on the capacitor). With $\frac{dI}{dt} < 0$, the direction of the induced EMF will change:
 
 ![Schematic of LC circuit once current starts to decrease](images/17_LC-circuit-three.png)
 
