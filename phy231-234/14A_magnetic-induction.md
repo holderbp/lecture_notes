@@ -45,4 +45,16 @@ If multiple loops of wire are used (e.g., a solenoid coil) then the induced EMF 
 \mathcal{E}_{\text{ind}} = N_{\text{loops}} \frac{\Delta \Phi_{B}}{\Delta t}
 ```
 
+## Lenz's Law (Direction of Induced Current)
+
+While Faraday's Law gave us the magnitude of the induced EMF due to a changing magnetic field, Lenz's Law tells us the direction of the induced current flow. Importantly, this induced current, in turn, produces an induced magnetic field $\vec{B}_{\text{ind}}$ (by Biot-Savart).
+
+**Lenz's Law**: The current induced in a loop of wire (due to $\mathcal{E}_{\text{ind}}$, due to $\Delta \vec{B}/\Delta t$) will have a direction such that the magnetic field it produces, $\vec{B}_{\text{ind}}$, *opposes the **change** in flux* of the original magnetic field through the loop.
+
+For example, consider a bar magnet being pushed into (or pulled out of) a loop of wire.
+
+![Example of generating induced current by pushing a magnet into a loop of wire](images/14_push-magnet-in-out-loop_two.png)
+
+
+
 
