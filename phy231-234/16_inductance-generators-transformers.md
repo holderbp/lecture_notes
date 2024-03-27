@@ -122,7 +122,7 @@ And therefore we see that the ratio of the number of loops determines $V_2$ in t
 
 If we further assume that the transformer is "ideal", meaning that no power is lost in the transformer, then:
 ```math
-P_1 &= P_2 \quad \rightarrow \quad I_1 V_1 = I_2 V_2  
+P_1 = P_2 \quad \rightarrow \quad I_1 V_1 = I_2 V_2  
 ```
 which allows us to relate the current on either side of the transformer.
 
