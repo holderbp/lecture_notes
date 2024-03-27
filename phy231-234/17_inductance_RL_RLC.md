@@ -229,11 +229,11 @@ We can then apply our two assumed initial conditions: $Q(t=0) = Q_0$, $\frac{dQ}
 Q(0) = A \cos(0 + \phi) \Rightarrow Q_0 = A \cos(\phi) \Rightarrow A = Q_0
 ```
 and
-```
+```math
 \frac{dQ}{dt}(0) = -A\omega \sin(0 + \phi), 0 = -A\omega \sin(\phi) \Rightarrow \sin(\phi) = 0 \Rightarrow \phi = 0, \pi
 ```
 And, therefore,
-```
+```math
 Q(t) = Q_0 \cos \left(\frac{t}{\sqrt{LC}} + \phi\right)
 ```
 So, we see that the capacitor oscillates back and forth; if you find $I = -\frac{dQ}{dt}$, you see the current oscillates too.
@@ -245,7 +245,7 @@ Recall how we derived the energy stored in a capacitor.
 ![Filling a capacitor by doing work to bring charges from one plate to the other. This allows calculation of the total stored potential energy on a capacitor.](images/17_energy-stored-in-capacitor.png)
 
 The (total) work required to bring charge from one plate to another, as an electric field builds up is found as:
-```
+```math
 \begin{align}
 W & \approx \sum_{n=1}^N \vec{F}_\text{app,$n$} \cdot \Delta \vec{r}_n \\
 & \approx \sum_{n=1}^N F_\text{app,$n$} \Delta r_n \\
