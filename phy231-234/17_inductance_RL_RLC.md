@@ -253,7 +253,7 @@ W & \approx \sum_{n=1}^N \vec{F}_\text{app,$n$} \cdot \Delta \vec{r}_n \\
 & \approx \sum_{n=1}^N \Delta Q \, E_n \, d\\
 & \approx \sum_{n=1}^N \Delta Q \, \Delta V_n \\
 & \approx \sum_{n=1}^N \frac{Q_n}{C}  \, \Delta Q \\
-W = \int_0^{Q_\text{tot}} \frac{Q}{C} dQ = \frac{1}{2C} \Q_\text{tot}^2
+W = \int_0^{Q_\text{tot}} \frac{Q}{C} dQ = \frac{1}{2C} Q_\text{tot}^2
 \end{align}
 ```
 
