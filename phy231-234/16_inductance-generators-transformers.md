@@ -138,7 +138,7 @@ Thus we need to construct a transformer with twice as many loops on the hairdrye
 
 ![A transformer that will allow the French hairdryer to be plugged into a US wall](images/16_hairdryer-transformer.png)
 
-(b) The current from the wall (assuming we build and ideal transformer) is:
+(b) The current from the wall (assuming we build an ideal transformer) is:
 ```math
 I_1 = \frac{I_2 V_2}{V_1} = \frac{P_2}{V_1} = \frac{1 \text{ kW}}{120 \text{ V}} = 8.3 \text{ A}
 ```
