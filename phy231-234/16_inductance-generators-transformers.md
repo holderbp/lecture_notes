@@ -120,8 +120,39 @@ where we have used that
 
 And therefore we see that the ratio of the number of loops determines $V_2$ in terms of $V_1$.
 
+If we further assume that the transformer is "ideal", meaning that no power is lost in the transformer, then:
+```math
+P_1 &= P_2 \quad \rightarrow \quad I_1 V_1 = I_2 V_2  
+```
+which allows us to relate the current on either side of the transformer.
 
+## Example (Young Ex. 21.11)
 
+You bring a 1 kW hairdryer back from France where it is designed to run on 240 V AC power. (a) How will you use it in the US with a 120V AC wall voltage? (b) What current will it draw from the wall?  (c) What is the resistance of the hairdryer?  (d) What is the total resistance of the apparatus you plug into the wall in the US?
+
+(a) We must "step up" the US voltage $V_1 = 120$ V to the operating voltage $V_2 = 240$ V, so:
+```math
+V_2 = \frac{N_2}{N_1} V_1 \quad \rightarrow \quad \frac{N_2}{N_1} = \frac{V_2}{V_1} = \frac{240 \text{ V}}{120 \text{ V}} = 2
+```
+Thus we need to construct a transformer with twice as many loops on the hairdryer side.
+
+![A transformer that will allow the French hairdryer to be plugged into a US wall](images/16_hairdryer-transformer.png)
+
+(b) The current from the wall (assuming we build and ideal transformer) is:
+```math
+I_1 = \frac{I_2 V_2}{V_1} = \frac{P_2}{V_1} = \frac{1 \text{ kW}}{120 \text{ V}} = 8.3 \text{ A}
+```
+Note that $I_2 = P_2 / V_2 = 4.15$ A on the hairdryer side.
+
+(c) The resistance is found by applying Ohm's Law across the hairdryer:
+```math
+\Delta V_R = I R \quad \rightarrow \quad R = \frac{\Delta V_R}{I} = \frac{V_2}{I_2} = \frac{V_2}{P_2/V_2} = \frac{V_2^2}{P_2} = 58 \text{ ohms}
+```
+
+(d) But the thing you plug into the wall (the transformer connected to the hairdryer) has $I_1$ going in at $V_1$, so its resistance is found as:
+```math
+R_\text{tot} = \frac{V_1}{I_1} = \frac{120 \text{ V}}{8.3 \text{ A}} = 14.5 \text{ ohms}
+```
 
 
 
