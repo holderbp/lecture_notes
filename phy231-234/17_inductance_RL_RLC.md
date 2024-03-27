@@ -162,3 +162,51 @@ which looks like:
 
 The current approaches the steady state value w/ time constant $\tau = \frac{L}{R}$.
 
+## LC Circuits
+
+Let's consider a circuit with just an inductor and a capacitor. We'll assume that the capacitor is charged to some $Q$ and that the switch is open:
+
+![Schematic of LC circuit](images/17_LC-circuit-one.png)
+
+Then, when the switch is closed, current will flow from the positively-charged plate, through the inductor, to the negatively charged plate.
+
+![Schematic of LC circuit just after switch is closed](images/17_LC-circuit-two.png)
+
+So, initially, at least, we can write
+```math
+\begin{align}
++|\Delta V_C| - |\Delta V_L| &= 0 \\
+\frac{Q}{C} - L \frac{dI}{dt} &= 0
+\end{align}
+```
+We can write the current in terms of the charge on the capacitor:
+```math
+i(t) := \frac{dQ}{dt} = -I \quad \text{(when capacitor is discharging)}
+```
+where, recall, we made the same definition in our analysis of RC circuits. So, the equation above can be written:
+```math
+\frac{Q}{C} - L \frac{d}{dt}(-\frac{dQ}{dt}) = 0 \Rightarrow \frac{d^2Q}{dt^2} = -\frac{1}{LC} Q
+```
+
+At some point the current should slow (starts at zero, finite change on the capacitor). With $\frac{d^2Q}{dt^2} < 0$, the direction of the induced EMF will change:
+
+![Schematic of LC circuit once current starts to decrease](images/17_LC-circuit-three.png)
+
+Then we have:
+```math
+\begin{align}
++|\Delta V_C| + |\Delta V_L| &= 0 \\
+\frac{Q}{C} - L \frac{dI}{dt} &= 0 \\
+\frac{Q}{C} - L \frac{d}{dt}(-\frac{dQ}{dt}) &= 0 \\
+\Rightarrow \frac{d^2Q}{dt^2} &= -\frac{1}{LC} Q 
+\end{align}
+```
+So, we see that the equation remains the same! (Also note that, with $dI/dt = 0$, the loop rule only makes sense if $Q \le 0$!)
+
+Therefore, regardless of the sign of $\frac{dI}{dt}$, we have
+```math
+\frac{d^2Q}{dt^2} = -\frac{1}{LC} Q
+```
+
+
+
