@@ -93,7 +93,7 @@ From the previous discussion, we know that the potential difference across an in
 ```math
 \Delta V_L = \mathcal{E}_{\text{ind}} = L \frac{dI}{dt}
 ```
-where $I$ is the current passing through it. But what is the sign? $\Delta V \geq 0$? The answer comes from Lenz's Law: if a current is increasing, then the induced EMF will point opposite to it (drive current in the opposite direction); $\Delta V$, if the current is decreasing, the induced current will point in the same direction. We can indicate the direction of potential difference using the EMF symbol:
+where $I$ is the current passing through it. But what is the sign? $\Delta V \lessgtr 0$? The answer comes from Lenz's Law: if a current is increasing, then the induced EMF will point opposite to it (drive current in the opposite direction); $\Delta V$, if the current is decreasing, the induced current will point in the same direction. We can indicate the direction of potential difference using the EMF symbol:
 
 ![Diagrams showing the induced current in the inductor depending on the direction of current flow and whether it is increasing or decreasing.](images/17_inductor-w-current-increasing-decreasing.png)
 
