@@ -116,7 +116,7 @@ We can determine the relationship between $V_1$ and $V_2$ by assuming that the m
 ```
 where we have used that 
 - If the flux is the same at all times, then the rate-of-change of flux is also the same at all times.
-- The induced EMF is $\mathcal{E}_\text{ind} = N_\text{loops} \frac{\Delta \Phi_B}{\Delta t}$.
+- The induced EMF is $\mathcal{E} = N_\text{loops} \frac{\Delta \Phi_B}{\Delta t}$
 
 And therefore we see that the ratio of the number of loops determines $V_2$ in terms of $V_1$.
 
