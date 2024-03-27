@@ -30,6 +30,7 @@ From here we can determine the potential difference across an inductor. Find the
 \frac{\Delta \Phi_B}{\Delta t} &= L \frac{\Delta I}{\Delta t} \\
 \varepsilon_{\text{ind}} &= L \frac{\Delta I}{\Delta t}\\
 \Delta V &= L \frac{\Delta I}{\Delta t}
+\end{align}
 ```
 Note that $L$ doesn't change in time; it is a constant.
 
