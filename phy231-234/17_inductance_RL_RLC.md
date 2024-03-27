@@ -114,3 +114,51 @@ We consider a circuit with a DC EMF, a resistor, and an inductor. We'll include 
 
 ![RL circuit schematic](images/17_RL-circuit.png)
 
+Immediately after putting the switch in position (1), we have the following current flow, and resulting $\Delta V$:
+
+![RL Circuit after closing switch, but before current is constant](images/17_RL-circuit-after-close.png)
+
+Therefore, the potential differences satisfy:
+```math
+\begin{align}
+|\Delta V| - |\Delta V_R| - |\Delta V_L| &= 0 \\
+\mathcal{E} - IR - L \frac{dI}{dt} &= 0 \\
+\end{align}
+```
+So we have:
+```math
+\begin{align}
+\frac{dI}{dt} &= \frac{\mathcal{E} - IR}{L} \\
+\frac{dI}{dt} &= -\frac{R}{L} (I - \frac{\mathcal{E}}{R}) 
+\end{align}
+```
+Recall that we encountered a similar equation for charging a capacitor. We can make a substitution:
+```math
+u := I - \frac{\mathcal{E}}{R} \quad \rightarrow \quad \frac{du}{dt} = \frac{dI}{dt} 
+```
+which we can plug in to find:
+```math
+\frac{du}{dt} = -\frac{R}{L} u \Rightarrow u(t) = A e^{-\frac{R}{L}t}
+```
+And therefore:
+```math
+I(t) = \frac{\mathcal{E}}{R} + Ae^{-\frac{R}{L}t}
+```
+Applying our initial conditions, $I(0) = 0$, we solve for the integration constant, $A$:
+```math
+\begin{align}
+I(0) &= \frac{\mathcal{E}}{R} + Ae^{-\frac{R}{L} \cdot 0}\\
+0 &= \frac{\mathcal{E}}{R} + A \\
+& \rightarrow \quad A = - \frac{\mathcal{E}}{R}
+\end{align}
+```
+So, finally, we have:
+```math
+I(t) = \frac{\mathcal{E}}{R} \left[ 1 - e^{-\frac{R}{L}t} \right]
+```
+which looks like:
+
+![Current over time for an RL circuit after switch is closed](images/17_current-increase-graph-RL-circuit.png)
+
+The current approaches the steady state value w/ time constant $\tau = \frac{L}{R}$.
+
