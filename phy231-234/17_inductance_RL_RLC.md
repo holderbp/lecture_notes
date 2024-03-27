@@ -81,3 +81,36 @@ So we find that
 \Phi_B = \frac{\mu_0 n I}{2\pi} \ln \left(\frac{b}{a}\right) \Rightarrow L = \frac{N\Phi_B}{I} = \frac{\mu_0 N^2}{2\pi} \ln \left(\frac{b}{a}\right)
 ```
 
+## Basic Methods of L-Circuit Analysis
+
+Before considering LR, LC, RLC, and (next time) AC circuits, we need to understand how the potential difference changes across an inductor. This is because we will analyze these circuits just as we did RC circuits:
+
+1. Write down Kirchhoff's loop rule (potential differences around the loop).
+2. Write the equation in the form of a differential equation (all will be linear, first- or second-order ODEs).
+3. "Solve" the differential equation, either by knowing the solution already, or guessing and checking.
+
+From the previous discussion, we know that the potential difference across an inductor is:
+```math
+\Delta V_L = \mathcal{E}_{\text{ind}} = L \frac{dI}{dt}
+```
+where $I$ is the current passing through it. But what is the sign? $\Delta V \geq 0$? The answer comes from Lenz's Law: if a current is increasing, then the induced EMF will point opposite to it (drive current in the opposite direction); $\Delta V$, if the current is decreasing, the induced current will point in the same direction. We can indicate the direction of potential difference using the EMF symbol:
+
+![Diagrams showing the induced current in the inductor depending on the direction of current flow and whether it is increasing or decreasing.](images/17_inductor-w-current-increasing-decreasing.png)
+
+Looking at these two cases separately, we see that, if we go with the current:
+```math
+\Delta V_{(a-b)} = -\mathcal{E}_L = -L \frac{dI}{dt} \quad \text{$I$ increasing}
+```
+and 
+```math
+\Delta V_{(a-b)} = +\mathcal{E}_L = +L \frac{dI}{dt} = L \left( -\frac{dI}{dt} \right) = -L \frac{dI}{dt} \quad \text{$I$ decreasing}
+```
+
+So, we can use $\Delta V_L = -L \frac{dI}{dt}$ when going in the direction of current flow, regardless of whether current is increasing or decreasing.
+
+## R-L Circuit
+
+We consider a circuit with a DC EMF, a resistor, and an inductor. We'll include a switch that allows for either (1) current flow from the battery, or (2) residual current flow only in R & L:
+
+![RL circuit schematic](images/17_RL-circuit.png)
+
