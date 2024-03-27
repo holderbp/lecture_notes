@@ -213,7 +213,7 @@ We have seen this differential equation before, when looking at simple harmonic 
 \frac{d^2x}{dt^2} = -kx \Rightarrow x(t) = A \cos(\omega t + \phi)
 ```
 where
-```
+```math
 \omega^2 = \frac{k}{m}
 ```
 Therefore, the charge on the capacitor in the LC circuit satisfies:
