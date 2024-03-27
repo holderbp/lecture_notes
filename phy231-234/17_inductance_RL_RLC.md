@@ -208,5 +208,74 @@ Therefore, regardless of the sign of $\frac{dI}{dt}$, we have
 \frac{d^2Q}{dt^2} = -\frac{1}{LC} Q
 ```
 
+We have seen this differential equation before, when looking at simple harmonic motion. We found that:
+```math
+\frac{d^2x}{dt^2} = -kx \Rightarrow x(t) = A \cos(\omega t + \phi)
+```
+where
+```
+\omega^2 = \frac{k}{m}
+```
+Therefore, the charge on the capacitor in the LC circuit satisfies:
+```math
+Q(t) = A \cos(\omega t + \phi)
+```
+with
+```math
+\omega^2 = \frac{1}{LC}
+```
+We can then apply our two assumed initial conditions: $Q(t=0) = Q_0$, $\frac{dQ}{dt}(t=0) = 0$.
+```math
+Q(0) = A \cos(0 + \phi) \Rightarrow Q_0 = A \cos(\phi) \Rightarrow A = Q_0
+```
+and
+```
+\frac{dQ}{dt}(0) = -A\omega \sin(0 + \phi), 0 = -A\omega \sin(\phi) \Rightarrow \sin(\phi) = 0 \Rightarrow \phi = 0, \pi
+```
+And, therefore,
+```
+Q(t) = Q_0 \cos \left(\frac{t}{\sqrt{LC}} + \phi\right)
+```
+So, we see that the capacitor oscillates back and forth; if you find $I = -\frac{dQ}{dt}$, you see the current oscillates too.
+
+## Energy Storage in an Inductor
+
+Recall how we derived the energy stored in a capacitor. 
+
+![Filling a capacitor by doing work to bring charges from one plate to the other. This allows calculation of the total stored potential energy on a capacitor.](images/17_energy-stored-in-capacitor.png)
+
+The (total) work required to bring charge from one plate to another, as an electric field builds up is found as:
+```
+\begin{align}
+W & \approx \sum_{n=1}^N \vec{F}_\text{app,$n$} \cdot \Delta \vec{r}_n \\
+& \approx \sum_{n=1}^N F_\text{app,$n$} \Delta r_n \\
+& \approx \sum_{n=1}^N \vec{F}_{E_n} d \\
+& \approx \sum_{n=1}^N \Delta Q \, E_n \, d\\
+& \approx \sum_{n=1}^N \Delta Q \, \Delta V_n \\
+& \approx \sum_{n=1}^N \frac{Q_n}{C}  \, \Delta Q \\
+W = \int_0^{Q_\text{tot}} \frac{Q}{C} dQ = \frac{1}{2C} \Q_\text{tot}^2
+\end{align}
+```
+
+Similarly, it takes work to establish a constant current in an inductor coil. If a current starts from zero and is increasing, the coil provides an opposing EMF with magnitude
+```math
+\Delta V_L = \mathcal{E}_\text{ind} =  L \frac{dI}{dt}
+```
+The power needed to oppose this is then given by:
+```math
+P = I \Delta V_L
+```
+If we take this quantity as the derivative of the energy, $P = \frac{dU}{dt}$, then we can derive the energy at any time as the integral:
+```math
+\begin{align}
+U_L &= \int_{t=0}^{t_f} P_L(t) \, dt\\
+ &= \int_{t=0}^{t_f} I(t) \, \Delta V_L(t) \, dt\\
+  &= \int_{t=0}^{t_f} I(t) \, L \frac{dI(t)}{dt} \, dt\\
+  &= \int_{I(0)=0}^{I(t_f)} I \, dI\\  
+  & \rightarrow \quad U_L = \frac{1}{2} L I^2
+\end{align}
+```
+
+Thus, we arrive at the "energy stored" in an inductor as the work required to attain the constant current value, $I$. We say that the energy is "stored in the magnetic field," just as we said that the capacitor's energy was stored in the electric field between the plates.
 
 
