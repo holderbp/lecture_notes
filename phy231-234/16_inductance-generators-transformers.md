@@ -97,6 +97,29 @@ P_0 = IV \Rightarrow I = \frac{P_0}{V}
 ```
 So we see that increasing $V$, decreases $I$.
 
+The voltage in AC power is transformed using magnetic induction. The *transformer* is two coils, with different numbers of loops, either nested together or connected via an iron core:
+
+![Schematic of a transformer, with different number of loops on both sides to get different voltages. The iron core makes sure the flux is the same through a cross-sectional area of each side.](images/16_transformer.png)
+
+- An alternating current at the input voltage}, $V_1$, creates a changing magnetic field in the coil with $N_1$ loops.
+- The ferromagnetic iron core transmits that magnetic field around to the coil with $N_2$ loops.
+- The changing magnetic field within the second coil induces an EMF in that coil, producing an alternating current with an output voltage, $V_2$.
+
+We can determine the relationship between $V_1$ and $V_2$ by assuming that the magnetic flux is the same throughout the iron core:
+```math
+\begin{align}
+\Phi_{B_1} &= \Phi_{B_2} \\
+\rightarrow \quad \frac{\Delta \Phi_{B_1}}{\Delta t} & = \frac{\Delta \Phi_{B_2}}{\Delta t} \\
+\frac{\mathcal{E}_1}{N_1} &= \frac{\mathcal{E}_2}{N_2} \\
+& \rightarrow \quad V_2 = \frac{V_1}{N_1}
+\end{align}
+```
+where we have used that 
+- If the flux is the same at all times, then the rate-of-change of flux is also the same at all times.
+- The induced EMF is $\mathcal{E}_\text{ind} = N_\text{loops} \frac{\Delta \Phi_B}{\Delta t}$.
+
+And therefore we see that the ratio of the number of loops determines $V_2$ in terms of $V_1$.
+
 
 
 
