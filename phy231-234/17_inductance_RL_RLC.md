@@ -99,11 +99,11 @@ where $I$ is the current passing through it. But what is the sign? $\Delta V \le
 
 Looking at these two cases separately, we see that, if we go with the current:
 ```math
-\Delta V_{(a-b)} = -\mathcal{E}_L = -L \frac{dI}{dt} \quad \text{$I$ increasing}
+\Delta V_{(a-b)} = -\mathcal{E}_L = -L \frac{dI}{dt} \quad \quad \text{($I$ increasing)}
 ```
 and 
 ```math
-\Delta V_{(a-b)} = +\mathcal{E}_L = +L \frac{dI}{dt} = L \left( -\frac{dI}{dt} \right) = -L \frac{dI}{dt} \quad \text{$I$ decreasing}
+\Delta V_{(a-b)} = +\mathcal{E}_L = +L \frac{dI}{dt} = L \left( -\frac{dI}{dt} \right) = -L \frac{dI}{dt} \quad \quad \text{($I$ decreasing)}
 ```
 
 So, we can use $\Delta V_L = -L \frac{dI}{dt}$ when going in the direction of current flow, regardless of whether current is increasing or decreasing.
